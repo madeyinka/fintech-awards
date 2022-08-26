@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
 
-      <Header />
+      <Header homePage />
       <HomeHero />
       <AboutSection />
       <HowtoRegSection />

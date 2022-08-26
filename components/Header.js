@@ -21,7 +21,7 @@ function MenuContainer({ children }) {
   return <div className='relative top-1/4 w-full mt-8 overflow-y-auto'>{children}</div>;
 }
 
-export const Header = () => {
+export const Header = ({ homePage }) => {
   const [top, setTop] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [open, setOpen] = useState(false);
@@ -89,7 +89,7 @@ export const Header = () => {
                 <li className="group relative">
                   <Link href="/">
                     <a
-                      className={classNames({ 'text-jacarta-100': top }, "font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { 'text-jacarta-800': !top })}
+                      className={classNames({ 'text-jacarta-50': top && homePage }, { 'text-jacarta-800': top && !homePage }, "font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { 'text-jacarta-800': !top })}
                       aria-expanded="false"
                     >Home</a>
                   </Link>
@@ -97,7 +97,7 @@ export const Header = () => {
                 <li className="group relative">
                   <Link href="/about">
                     <a
-                      className={classNames({ 'text-jacarta-100': top }, "font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { 'text-jacarta-800': !top })}
+                      className={classNames({ 'text-jacarta-50': top && homePage }, { 'text-jacarta-800': top && !homePage }, "font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { 'text-jacarta-800': !top })}
                       aria-expanded="false"
                     >About</a>
                   </Link>
@@ -105,7 +105,7 @@ export const Header = () => {
                 </li>
                 <li className="nav-item dropdown group relative">
                   <a
-                    className={classNames({ 'text-jacarta-100': top }, "font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { 'text-jacarta-800': !top })}
+                    className={classNames({ 'text-jacarta-50': top && homePage }, { 'text-jacarta-800': top && !homePage }, "font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { 'text-jacarta-800': !top })}
                     aria-expanded="false"
                   >
                     Awards Categories
@@ -135,7 +135,7 @@ export const Header = () => {
                 </li>
                 <li className="group relative">
                   <a
-                    className={classNames({ 'text-jacarta-100': top }, "font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { 'text-jacarta-800': !top })}
+                    className={classNames({ 'text-jacarta-50': top && homePage }, { 'text-jacarta-800': top && !homePage }, "font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { 'text-jacarta-800': !top })}
                     aria-expanded="false"
                   >
                     Resources
@@ -158,7 +158,7 @@ export const Header = () => {
                   >
                     <li>
                       <a
-                        href="newsletter.html"
+                        href="newsletter"
                         className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                       >
                         <span className="font-display text-jacarta-700 text-sm font-medium dark:text-white">Past Awards</span>
@@ -166,7 +166,7 @@ export const Header = () => {
                     </li>
                     <li>
                       <a
-                        href="help-center.html"
+                        href="help-center"
                         className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                       >
                         <span className="font-display text-jacarta-700 text-sm font-medium dark:text-white">Help Center</span>
@@ -174,7 +174,7 @@ export const Header = () => {
                     </li>
                     <li>
                       <a
-                        href="blog.html"
+                        href="blog"
                         className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                       >
                         <span className="font-display text-jacarta-700 text-sm font-medium dark:text-white">Blog</span>
@@ -186,7 +186,7 @@ export const Header = () => {
                 <li className="group">
                   <Link href="/contact">
                     <a
-                      className={classNames({ 'text-jacarta-100': top }, "font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { 'text-jacarta-800': !top })}
+                      className={classNames({ 'text-jacarta-50': top && homePage }, { 'text-jacarta-800': top && !homePage }, "font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { 'text-jacarta-800': !top })}
                     >
                       Contact
                     </a>
@@ -276,7 +276,7 @@ export const Header = () => {
                   >
                     <li>
                       <a
-                        href="index.html"
+                        href="index"
                         className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                       >
                         <span className="font-display text-accent text-sm">Home 1</span>
@@ -284,7 +284,7 @@ export const Header = () => {
                     </li>
                     <li>
                       <a
-                        href="home-2.html"
+                        href="home-2"
                         className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                       >
                         <span className="font-display text-jacarta-700 text-sm dark:text-white">Home 2</span>
@@ -292,7 +292,7 @@ export const Header = () => {
                     </li>
                     <li>
                       <a
-                        href="home-3.html"
+                        href="home-3"
                         className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                       >
                         <span className="font-display text-jacarta-700 text-sm dark:text-white">Home 3</span>
@@ -329,7 +329,7 @@ export const Header = () => {
                   >
                     <li>
                       <a
-                        href="item.html"
+                        href="item"
                         className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                       >
                         <span className="font-display text-jacarta-700 text-sm dark:text-white">Item Details</span>
@@ -337,7 +337,7 @@ export const Header = () => {
                     </li>
                     <li>
                       <a
-                        href="collections.html"
+                        href="collections"
                         className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                       >
                         <span className="font-display text-jacarta-700 text-sm dark:text-white">Explore Collections</span>
@@ -345,7 +345,7 @@ export const Header = () => {
                     </li>
                     <li>
                       <a
-                        href="collection.html"
+                        href="collection"
                         className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                       >
                         <span className="font-display text-jacarta-700 text-sm dark:text-white">Collection</span>
@@ -382,7 +382,7 @@ export const Header = () => {
                     >
                       <li>
                         <a
-                          href="collections.html"
+                          href="collections"
                           className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                         >
                           <span className="bg-light-base mr-3 rounded-xl p-[0.375rem]">
@@ -402,7 +402,7 @@ export const Header = () => {
                       </li>
                       <li>
                         <a
-                          href="collections.html"
+                          href="collections"
                           className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                         >
                           <span className="mr-3 rounded-xl bg-[#E4FCF4] p-[0.375rem]">
@@ -422,7 +422,7 @@ export const Header = () => {
                       </li>
                       <li>
                         <a
-                          href="collections.html"
+                          href="collections"
                           className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                         >
                           <span className="mr-3 rounded-xl bg-[#FDF7EE] p-[0.375rem]">
@@ -442,7 +442,7 @@ export const Header = () => {
                       </li>
                       <li>
                         <a
-                          href="collections.html"
+                          href="collections"
                           className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                         >
                           <span className="mr-3 rounded-xl bg-[#F2EEFF] p-[0.375rem]">
@@ -462,7 +462,7 @@ export const Header = () => {
                       </li>
                       <li>
                         <a
-                          href="collections.html"
+                          href="collections"
                           className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                         >
                           <span className="mr-3 rounded-xl bg-[#FFEEFA] p-[0.375rem]">
@@ -482,7 +482,7 @@ export const Header = () => {
                       </li>
                       <li>
                         <a
-                          href="collections.html"
+                          href="collections"
                           className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                         >
                           <span className="mr-3 rounded-xl bg-[#EAF2FE] p-[0.375rem]">
@@ -502,7 +502,7 @@ export const Header = () => {
                       </li>
                       <li>
                         <a
-                          href="collections.html"
+                          href="collections"
                           className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                         >
                           <span className="mr-3 rounded-xl bg-[#EBEDFF] p-[0.375rem]">
@@ -522,7 +522,7 @@ export const Header = () => {
                       </li>
                       <li>
                         <a
-                          href="collections.html"
+                          href="collections"
                           className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                         >
                           <span className="mr-3 rounded-xl bg-[#F5FFED] p-[0.375rem]">
@@ -542,7 +542,7 @@ export const Header = () => {
                       </li>
                       <li>
                         <a
-                          href="collections.html"
+                          href="collections"
                           className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                         >
                           <span className="mr-3 rounded-xl bg-[#FFEEEE] p-[0.375rem]">
@@ -562,7 +562,7 @@ export const Header = () => {
                       </li>
                       <li>
                         <a
-                          href="collections.html"
+                          href="collections"
                           className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                         >
                           <span className="mr-3 rounded-xl bg-[#EEFCFF] p-[0.375rem]">
@@ -609,7 +609,7 @@ export const Header = () => {
                   >
                     <li>
                       <a
-                        href="help-center.html"
+                        href="help-center"
                         className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                       >
                         <span className="font-display text-jacarta-700 text-sm dark:text-white">Help Center</span>
@@ -617,7 +617,7 @@ export const Header = () => {
                     </li>
                     <li>
                       <a
-                        href="blog.html"
+                        href="blog"
                         className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                       >
                         <span className="font-display text-jacarta-700 text-sm dark:text-white">Blog</span>
@@ -625,7 +625,7 @@ export const Header = () => {
                     </li>
                     <li>
                       <a
-                        href="single-post.html"
+                        href="single-post"
                         className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                       >
                         <span className="font-display text-jacarta-700 text-sm dark:text-white">Single Post</span>
@@ -633,7 +633,7 @@ export const Header = () => {
                     </li>
                     <li>
                       <a
-                        href="newsletter.html"
+                        href="newsletter"
                         className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                       >
                         <span className="font-display text-jacarta-700 text-sm dark:text-white">Newsletter</span>
@@ -643,7 +643,7 @@ export const Header = () => {
                 </li>
                 <li className="group">
                   <a
-                    href="Contact.html"
+                    href="Contact"
                     className="text-jacarta-700 font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5"
                   >
                     Contact

@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { useTheme } from 'next-themes';
 import Link from 'next/link';
 import Image from 'next/image';
-import css from './first.module.css';
 import classNames from 'classnames';
 import { Button } from '@/components/form'
 import { Container } from '@/components/ColorSwitch'
@@ -16,7 +15,7 @@ function HeroHome() {
   return (
     <div className="relative ">
       <section className="relative w-full h-screen top-0 left-0 object-cover object-[83%]  bg-cover bg-center bg-[url('/assets/gallery/nigeria-fintech-awards-hero1.jpg')] dark:bg-[url('/assets/gallery/nigeria-fintech-awards-hero1.jpg')]  ">
-        <div className={`${css.home__container} ${css.containerbox} ${css.gridbox}`}>
+        <div className="home__container containerbox gridbox">
 
           <div className="flex items-center mx-auto justify-center max-w-4xl">
             <div className="py-24 pt-32 xl:pt-36 text-center ">

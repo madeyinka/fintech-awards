@@ -61,7 +61,22 @@ input:-webkit-autofill:active {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-
+.home__container {
+  position: relative;
+  height: calc(100vh - 1rem);
+  align-content: center;
+  row-gap: 3rem;
+}
+.gridbox {
+  display: grid;
+  gap: 1.5rem;
+}
+@media screen and (min-width: 1024px) {
+  .containerbox {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .gradient-line {
   width: 2px;
   height: 130px;
