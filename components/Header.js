@@ -196,12 +196,12 @@ export const Header = () => {
               </ul>
             </nav>
             {/* Actions */}
-            <div className="ml-8 hidden lg:flex xl:ml-12">
+            <div className="ml-8 hidden lg:flex xl:ml-12 group">
               <ThemeToggle />
             </div>
           </div>
           {/* Mobile Menu Actions */}
-          <div className="ml-auto flex lg:hidden">
+          <div className="ml-auto flex lg:hidden group">
             {/* Dark Mode SM */}
             <ThemeToggle />
             {/* Mobile Menu on Toggle */}
@@ -216,7 +216,7 @@ export const Header = () => {
                 viewBox="0 0 24 24"
                 width={24}
                 height={24}
-                className="fill-jacarta-700 h-4 w-4 transition-colors group-hover:fill-white group-focus:fill-white dark:fill-white"
+                className="fill-jacarta-700 h-4 w-4 transition-colors group-hover:fill-jacarta-800 dark:group-hover:fill-white  lg:group-hover:fill-white group-focus:fill-white dark:fill-white"
               >
                 <path fill="none" d="M0 0h24v24H0z" />
                 <path d="M18 18v2H6v-2h12zm3-7v2H3v-2h18zm-3-7v2H6V4h12z" />

@@ -79,9 +79,9 @@ input:-webkit-autofill:active {
   -ms-transform-origin: 50% 0%;
   transform-origin: 50% 0%;
 }
-section {
+/* section {
   @apply relative lg:py-24;
-}
+} */
 section.hero {
   overflow: hidden;
   padding-bottom: 0;
@@ -128,9 +128,6 @@ section.hero {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.relative {
-  position: relative;
-}
 .timeline .timeline-item .date-label-left::before {
   position: absolute;
   top: 0;
@@ -152,15 +149,16 @@ section.hero {
   position: absolute;
   top: 0;
   z-index: 10;
-  height: 1.75rem;
-  width: 1.75rem;
+  height: 1.7rem;
+  width: 1.7rem;
   border-radius: 9999px;
   border-width: 2px;
-  border-style: dashed;
+  /* border-style: dashed;
   --tw-border-opacity: 1;
-  border-color: rgb(16, 20, 54 / var(--tw-border-opacity));
+  border-color: rgb(16, 20, 54 / var(--tw-border-opacity)); */
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  /* background-color: rgb(255 255 255 / var(--tw-bg-opacity)); */
+  /* background-color: #101436; */
   --tw-content: '';
   content: var(--tw-content);
   left: -45px;
@@ -173,7 +171,7 @@ section.hero {
   margin: auto;
   height: 100%;
   width: 1px;
-  border-left-width: 2px;
+  border-left-width: 4px;
   border-style: dashed;
   --tw-border-opacity: 1;
   border-color: rgb(16, 20, 54 / var(--tw-border-opacity));
@@ -197,7 +195,7 @@ section.hero {
     right: 26rem;
   }
   .timeline {
-    padding-left: 1.5rem;
+    padding-left: 1.55rem;
   }
 }
 

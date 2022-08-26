@@ -5,7 +5,7 @@ import Image from 'next/image';
 import css from './first.module.css';
 import classNames from 'classnames';
 import { Button } from '@/components/form'
-
+import { Container } from '@/components/ColorSwitch'
 
 
 function HeroHome() {
@@ -14,7 +14,7 @@ function HeroHome() {
 
   useEffect(() => setMounted(true), []);
   return (
-    <div className="relative bg-white dark:bg-jacarta-800 text-jacarta-700 dark:text-white">
+    <div className="relative ">
       <section className="relative w-full h-screen top-0 left-0 object-cover object-[83%]  bg-cover bg-center bg-[url('/assets/gallery/nigeria-fintech-awards-hero1.jpg')] dark:bg-[url('/assets/gallery/nigeria-fintech-awards-hero1.jpg')]  ">
         <div className={`${css.home__container} ${css.containerbox} ${css.gridbox}`}>
 
@@ -44,7 +44,9 @@ function HeroHome() {
 
         </div>
       </section>
-      <div className="gradient-line mx-auto"></div>
+      <Container>
+        <div className="gradient-line mx-auto"></div>
+      </Container>
     </div>
   );
 }
