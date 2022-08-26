@@ -1,0 +1,225 @@
+@font-face {
+  font-family: 'CalSans-SemiBold';
+  src: url('/fonts/CalSans-SemiBold.woff') format('woff'), url('/fonts/CalSans-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  p,
+  ul,
+  li,
+  span {
+    font-family: 'Manrope', 'sans-serif';
+  }
+  a,
+  button,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'CalSans-SemiBold', 'sans-serif';
+  }
+}
+
+a {
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  @apply bg-white;
+  -webkit-box-shadow: 0 0 0 30px #fff inset !important;
+}
+
+.scrollbar::-webkit-scrollbar {
+  @apply hidden;
+  width: 0;
+  background: transparent; /* make scrollbar transparent */
+}
+
+/* make scrollbar transparent on Firefox, IE and Edge*/
+.scrollbar {
+  @apply scroll-p-0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.gradient-line {
+  width: 2px;
+  height: 140px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(1%, rgba(49, 91, 232, 0)),
+    color-stop(20%, #315be8),
+    color-stop(40%, #773fe2),
+    to(#e35275)
+  );
+  background-image: linear-gradient(180deg, rgba(49, 91, 232, 0) 1%, #315be8 20%, #773fe2 40%, #e35275);
+  -webkit-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+}
+section {
+  @apply relative py-10 lg:py-24;
+}
+section.hero {
+  overflow: hidden;
+  padding-bottom: 0;
+  background-color: #1b253c;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#1b253d)),
+    url(../public/assets/images/hero-bg.png),
+    -webkit-gradient(linear, left top, left bottom, from(#3e1d7f), to(#1b253c));
+  background-image: linear-gradient(180deg, transparent, #1b253d), url(../public/assets/images/hero-bg.png),
+    linear-gradient(180deg, #3e1d7f, #1b253c);
+  background-position: 0 0, 50% 0, 0 0;
+  background-size: auto, cover, auto;
+  background-repeat: repeat, no-repeat, repeat;
+  color: #fff;
+}
+
+.header--is-sticky {
+  background-color: hsla(0, 0%, 100%, 0.5);
+}
+/* .dark-header--is-sticky {
+  background-color: rgba(19, 23, 64, 0.5);
+} */
+/* 
+background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#1b253d)),
+url(../public/assets/images/hero-bg.png),
+-webkit-gradient(linear, left top, left bottom, from(#3e1d7f), to(#1b253c));
+background-image: linear-gradient(180deg, transparent, #1b253d), url(../public/assets/images/hero-bg.png),
+linear-gradient(180deg, #3e1d7f, #1b253c); */
+
+.three-row-paragraph {
+  opacity: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.animated {
+  animation-duration: 3s;
+  animation-fill-mode: both;
+}
+
+.color-font {
+  background: -webkit-gradient(linear, left top, right top, from(#12c2e9), color-stop(#c471ed), to(#f64f59));
+  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.relative {
+  position: relative !important;
+}
+.timeline .timeline-item .date-label-left::before {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  height: 1.75rem;
+  width: 1.75rem;
+  border-radius: 9999px;
+  border-width: 2px;
+  border-style: dashed;
+  --tw-border-opacity: 1;
+  border-color: rgb(16, 20, 54 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  /* background-color: rgb(255 255 255 / var(--tw-bg-opacity)); */
+  --tw-content: '';
+  content: var(--tw-content);
+  right: -45px;
+}
+.timeline .timeline-item .duration-right::before {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  height: 1.75rem;
+  width: 1.75rem;
+  border-radius: 9999px;
+  border-width: 2px;
+  border-style: dashed;
+  --tw-border-opacity: 1;
+  border-color: rgb(16, 20, 54 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-content: '';
+  content: var(--tw-content);
+  left: -45px;
+}
+.timeline::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  height: 100%;
+  width: 1px;
+  border-left-width: 2px;
+  border-style: dashed;
+  --tw-border-opacity: 1;
+  border-color: rgb(16, 20, 54 / var(--tw-border-opacity));
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
+@media (max-width: 575px) {
+  .timeline {
+    margin-left: 0.55rem;
+  }
+
+  .timeline .timeline-item .duration::before {
+    content: var(--tw-content);
+    left: -2.3rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .timeline::after {
+    right: 26rem;
+  }
+  .timeline {
+    padding-left: 1.5rem;
+  }
+}
+
+.timeline .timeline-item .date-label-left::before {
+  content: var(--tw-content);
+  right: -46px;
+}
+
+.underline-hover {
+  display: inline;
+  background-image: linear-gradient(rgba(71, 118, 230, 0) calc(99% - 1px), #4974e6 1px);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  background-position: center;
+  transition: background-size 0.5s;
+}
