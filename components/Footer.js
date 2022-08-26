@@ -7,7 +7,7 @@ function Footer() {
   return (
     <>
       <Container className="pb-20 lg:pb-28 pt-32 lg:pt-44">
-        <footer className=" bg-white dark:bg-jacarta-800 text-jacarta-700 dark:text-white relative ">
+        <footer className="  text-jacarta-600 dark:text-white relative ">
           <div className="container mx-auto relative px-4 z-10">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-7 gap-8">
               <div className="footer-widget xl:flex xl:flex-col xl:justify-center xl:col-span-2">
@@ -24,7 +24,7 @@ function Footer() {
                       focusable="false"
                       data-prefix="fab"
                       data-icon="facebook"
-                      className="group-hover:fill-accent fill-jacarta-300 h-5 w-5 dark:group-hover:fill-white"
+                      className="group-hover:fill-accent fill-jacarta-600 h-5 w-5 dark:group-hover:fill-white"
                       role="img"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 512 512"
@@ -41,7 +41,7 @@ function Footer() {
                       focusable="false"
                       data-prefix="fab"
                       data-icon="twitter"
-                      className="group-hover:fill-accent fill-jacarta-300 h-5 w-5 dark:group-hover:fill-white"
+                      className="group-hover:fill-accent fill-jacarta-600 h-5 w-5 dark:group-hover:fill-white"
                       role="img"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 512 512"
@@ -58,7 +58,7 @@ function Footer() {
                       focusable="false"
                       data-prefix="fab"
                       data-icon="instagram"
-                      className="group-hover:fill-accent fill-jacarta-300 h-5 w-5 dark:group-hover:fill-white"
+                      className="group-hover:fill-accent fill-jacarta-600 h-5 w-5 dark:group-hover:fill-white"
                       role="img"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 448 512"
@@ -75,7 +75,7 @@ function Footer() {
                       focusable="false"
                       data-prefix="fab"
                       data-icon="tiktok"
-                      className="group-hover:fill-accent fill-jacarta-300 h-5 w-5 dark:group-hover:fill-white"
+                      className="group-hover:fill-accent fill-jacarta-600 h-5 w-5 dark:group-hover:fill-white"
                       role="img"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 448 512"

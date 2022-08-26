@@ -161,7 +161,7 @@ section.hero {
   /* background-color: #101436; */
   --tw-content: '';
   content: var(--tw-content);
-  left: -45px;
+  left: -46px;
 }
 .timeline::after {
   position: absolute;
@@ -171,7 +171,7 @@ section.hero {
   margin: auto;
   height: 100%;
   width: 1px;
-  border-left-width: 4px;
+  border-left-width: 3px;
   border-style: dashed;
   --tw-border-opacity: 1;
   border-color: rgb(16, 20, 54 / var(--tw-border-opacity));
