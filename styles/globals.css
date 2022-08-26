@@ -64,7 +64,7 @@ input:-webkit-autofill:active {
 
 .gradient-line {
   width: 2px;
-  height: 140px;
+  height: 130px;
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -80,7 +80,7 @@ input:-webkit-autofill:active {
   transform-origin: 50% 0%;
 }
 section {
-  @apply relative py-10 lg:py-24;
+  @apply relative lg:py-24;
 }
 section.hero {
   overflow: hidden;
@@ -100,15 +100,6 @@ section.hero {
 .header--is-sticky {
   background-color: hsla(0, 0%, 100%, 0.5);
 }
-/* .dark-header--is-sticky {
-  background-color: rgba(19, 23, 64, 0.5);
-} */
-/* 
-background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#1b253d)),
-url(../public/assets/images/hero-bg.png),
--webkit-gradient(linear, left top, left bottom, from(#3e1d7f), to(#1b253c));
-background-image: linear-gradient(180deg, transparent, #1b253d), url(../public/assets/images/hero-bg.png),
-linear-gradient(180deg, #3e1d7f, #1b253c); */
 
 .three-row-paragraph {
   opacity: 1;
@@ -138,7 +129,7 @@ linear-gradient(180deg, #3e1d7f, #1b253c); */
 }
 
 .relative {
-  position: relative !important;
+  position: relative;
 }
 .timeline .timeline-item .date-label-left::before {
   position: absolute;
