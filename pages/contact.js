@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const contact = () => {
@@ -9,7 +10,7 @@ const contact = () => {
             <Header />
             <main className="pt-[5.5rem] lg:pt-24">
                 {/* Page Title */}
-                <section className="after:bg-jacarta-900/60 relative bg-cover bg-center bg-no-repeat py-32 after:absolute after:inset-0" style={{ backgroundImage: 'url("./img/page-title/knowledge_base_banner.jpg")' }}>
+                <section className="after:bg-jacarta-900/60 w-full h-full relative bg-cover bg-center bg-no-repeat py-32 after:absolute after:inset-0" style={{ backgroundImage: 'url("/assets/images/contact_banner.jpg")', }}>
                     <div className="container relative z-10">
                         <h1 className="font-display text-center text-4xl font-medium text-white">Get in touch</h1>
                     </div>
@@ -17,7 +18,7 @@ const contact = () => {
                 {/* Contact */}
                 <section className="dark:bg-jacarta-800 relative py-24">
                     <picture className="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-                        <Image src="/assets/images/gradient_light.jpg" alt="gradient" className="h-full w-full" />
+                        <Image src="/assets/images/gradient_light.jpg" width="100%" height="100%" alt="gradient" className="h-full w-full" />
                     </picture>
                     <div className="container">
                         <div className="lg:flex">
@@ -31,16 +32,16 @@ const contact = () => {
                                     <div className="flex space-x-7">
                                         <div className="mb-6 w-1/2">
                                             <label htmlFor="name" className="font-display text-jacarta-700 mb-1 block text-sm dark:text-white">Name<span className="text-red">*</span></label>
-                                            <input name="name" className="contact-form-input dark:bg-jacarta-700 border-jacarta-100 hover:ring-accent/10 focus:ring-accent dark:border-jacarta-600 dark:placeholder:text-jacarta-300 w-full rounded-lg py-3 hover:ring-2 dark:text-white" id="name" type="text" required />
+                                            <input name="name" className="contact-form-input dark:bg-jacarta-700  border-2 border-jacarta-100 hover:ring-jacarta-200 focus:ring-jacarta-200 outline-none dark:border-jacarta-600 dark:placeholder:text-jacarta-300 w-full rounded-lg py-3 hover:ring-2 dark:text-white" id="name" type="text" required />
                                         </div>
                                         <div className="mb-6 w-1/2">
                                             <label htmlFor="email" className="font-display text-jacarta-700 mb-1 block text-sm dark:text-white">Email<span className="text-red">*</span></label>
-                                            <input name="email" className="contact-form-input dark:bg-jacarta-700 border-jacarta-100 hover:ring-accent/10 focus:ring-accent dark:border-jacarta-600 dark:placeholder:text-jacarta-300 w-full rounded-lg py-3 hover:ring-2 dark:text-white" id="email" type="email" required />
+                                            <input name="email" className="contact-form-input dark:bg-jacarta-700 border-2 border-jacarta-100 hover:ring-jacarta-200 focus:ring-jacarta-200 outline-none dark:border-jacarta-600 dark:placeholder:text-jacarta-300 w-full rounded-lg py-3 hover:ring-2 dark:text-white" id="email" type="email" required />
                                         </div>
                                     </div>
                                     <div className="mb-4">
                                         <label htmlFor="message" className="font-display text-jacarta-700 mb-1 block text-sm dark:text-white">Message<span className="text-red">*</span></label>
-                                        <textarea id="message" className="contact-form-input dark:bg-jacarta-700 border-jacarta-100 hover:ring-accent/10 focus:ring-accent dark:border-jacarta-600 dark:placeholder:text-jacarta-300 w-full rounded-lg py-3 hover:ring-2 dark:text-white" required name="message" rows={5} defaultValue={""} />
+                                        <textarea id="message" className="contact-form-input dark:bg-jacarta-700 border-2 border-jacarta-100 hover:ring-jacarta-200 focus:ring-jacarta-200 outline-none dark:border-jacarta-600 dark:placeholder:text-jacarta-300 w-full rounded-lg py-3 hover:ring-2 dark:text-white" required name="message" rows={5} defaultValue={""} />
                                     </div>
                                     <div className="mb-6 flex items-center space-x-2">
                                         <input type="checkbox" id="contact-form-consent-input" name="agree-to-terms" className="checked:bg-accent dark:bg-jacarta-600 text-accent border-jacarta-200 focus:ring-accent/20 dark:border-jacarta-500 h-5 w-5 self-start rounded focus:ring-offset-0" />
@@ -52,12 +53,16 @@ const contact = () => {
                                     <div id="contact-form-notice" className="relative mt-4 hidden rounded-lg border border-transparent p-4" />
                                 </form>
                             </div>
-                            {/* Info */}
+
                             <div className="lg:w-1/3 lg:pl-5">
                                 <h2 className="font-display text-jacarta-700 mb-4 text-xl dark:text-white">Information</h2>
                                 <p className="dark:text-jacarta-300 mb-6 text-lg leading-normal">
-                                    Don&apos;t hesitaste, drop us a line Collaboratively administrate channels whereas virtual. Objectively seize
-                                    scalable metrics whereas proactive e-services.
+                                    Don&apos;t hesitaste, drop us a line Let&apos;s talk
+                                    about your Sponsorship. Feel free to ask me any question or let’s do to talk about our future collaboration.
+
+
+
+
                                 </p>
                                 <div className="dark:bg-jacarta-700 dark:border-jacarta-600 border-jacarta-100 rounded-[1.25rem] border bg-white p-10">
                                     <div className="mb-6 flex items-center space-x-5">
@@ -68,8 +73,8 @@ const contact = () => {
                                             </svg>
                                         </span>
                                         <div>
-                                            <span className="font-display text-jacarta-700 block text-base dark:text-white">Phone</span>
-                                            <a href="tel:123-123-456" className="hover:text-accent dark:text-jacarta-300 text-sm">(123) 123-456</a>
+                                            <h6 className="font-display text-jacarta-700 block text-base dark:text-white">Phone</h6>
+                                            <a href="tel:+2348082477786" className="text-jacarta-500 hover:text-accent dark:text-jacarta-300 font-DmSans text-sm"> +234 8082477786, +234 8082477799</a>
                                         </div>
                                     </div>
                                     <div className="mb-6 flex items-center space-x-5">
@@ -80,8 +85,12 @@ const contact = () => {
                                             </svg>
                                         </span>
                                         <div>
-                                            <span className="font-display text-jacarta-700 block text-base dark:text-white">Address</span>
-                                            <address className="dark:text-jacarta-300 text-sm not-italic">08 W 36th St, New YorkNY 10001</address>
+                                            <h6 className="font-display text-jacarta-700 block text-base dark:text-white">Address</h6>
+                                            <address className="text-jacarta-500 dark:text-jacarta-300 font-DmSans text-sm not-italic">The BrickHouse
+
+                                                17, Yinusa Adeniji Street, Off Muslim Avenue
+
+                                                Ikeja, Lagos</address>
                                         </div>
                                     </div>
                                     <div className="flex items-center space-x-5">
@@ -92,8 +101,10 @@ const contact = () => {
                                             </svg>
                                         </span>
                                         <div>
-                                            <span className="font-display text-jacarta-700 block text-base dark:text-white">Email</span>
-                                            <a href="mailto:office@xhibiter.com" className="hover:text-accent dark:text-jacarta-300 text-sm not-italic">office@xhibiter.com</a>
+                                            <h6 className="font-display text-jacarta-700 block text-base dark:text-white">Email</h6>
+                                            <Link href="mailto:info@nigerianfintechawards.org.ng">
+                                                <a className="text-jacarta-500 hover:text-accent dark:text-jacarta-300 font-DmSans text-sm not-italic">info@nigerianfintechawards.org.ng</a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>

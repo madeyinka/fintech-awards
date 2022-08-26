@@ -34,7 +34,7 @@ function Footer() {
                   </a>
                   <a
                     className="group flex items-center justify-center w-10 h-10 rounded-lg border transition duration-500 hover:bg-indigo-500 mr-2"
-                    href="#"
+                    href="https://twitter.com/nigerianfintc1a"
                   >
                     <svg
                       aria-hidden="true"

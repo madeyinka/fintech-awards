@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     fontFamily: {
       Manrope: ['"Manrope"', 'sans-serif'],
-      CalSans: ['"CalSans-SemiBold"', 'sans-serif']
+      CalSans: ['"CalSans-SemiBold"', 'sans-serif'],
+      DmSans: ['"DM Sans"', "sans-serif"]
     },
     container: {
       center: true,
