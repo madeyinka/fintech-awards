@@ -15,7 +15,7 @@ const About = () => {
         <section className={classNames("relative md:py-24 py-16 bg-white dark:bg-jacarta-800 text-jacarta-700 dark:text-white", { "object-cover object-[83%]  bg-cover bg-center bg-[url('/assets/images/gradient_light.jpg')] ": switchColor })}>
             <div className="container ">
                 <div className="grid md:grid-cols-12 grid-cols-1 items-center gap-[30px] xl:gap-24">
-                    <div className="lg:col-span-5 md:col-span-6">
+                    <div className="lg:col-span-5 md:col-span-6 order-last lg:order-first ">
                         <div className="grid grid-cols-12 gap-6 items-center">
                             <div className="col-span-6">
                                 <div className="grid grid-cols-1 gap-6">

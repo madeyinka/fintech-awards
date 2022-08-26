@@ -7,26 +7,10 @@ import classNames from 'classnames';
 
 import { Logo, LogoSwitch } from '@/components/Logo'
 
-
-
-
-const style = {
-  container: `relative top-1/4 w-full mt-8 overflow-y-auto`,
-  item: `text-3xl text-gray-400 cursor-pointer hover:text-white`,
-  example: `dark:bg-jacarta-800 invisible fixed inset-0 z-10 ml-auto items-center bg-white opacity-0 lg:visible lg:relative lg:inset-auto lg:flex lg:bg-transparent lg:opacity-100 dark:lg:bg-transparent nav-menu--is-open"`,
-  exmp: `overflow-x-hidden overflow-y-auto md:overflow-hidden fixed z-50 top-0 left-0  bg-blue`,
-  menu: {
-    open: `w-full `,
-    close: `w-0`,
-    default: `fixed top-0 z-20 backdrop-blur transition-colors h-full max-h-screen overflow-y-auto dark:bg-jacarta-800 bg-white transition-all duration-700 `,
-  },
-};
-
 function Menu({ children, open }) {
   return (
     <div
-      className={`${style.menu.default} 
-       ${open ? style.menu.open : style.menu.close}`}
+      className={classNames('fixed top-0 z-20 backdrop-blur h-full max-h-screen overflow-y-auto dark:bg-jacarta-800 bg-white transition-all duration-700 ', { 'w-full': open }, { 'w-0': !open })}
     >
       {children}
     </div>
@@ -34,18 +18,9 @@ function Menu({ children, open }) {
 }
 
 function MenuContainer({ children }) {
-  return <div className={style.container}>{children}</div>;
+  return <div className='relative top-1/4 w-full mt-8 overflow-y-auto'>{children}</div>;
 }
 
-function MenuItem({ children, href }) {
-  return (
-    <div className="p-2 ">
-      <a href={href} className={style.item}>
-        {children}
-      </a>
-    </div>
-  );
-}
 export const Header = () => {
   const [top, setTop] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
