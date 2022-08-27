@@ -18,7 +18,7 @@ const contact = () => {
                 {/* Contact */}
                 <section className="dark:bg-jacarta-800 relative py-24">
                     <picture className="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-                        <Image src="/assets/images/gradient_light.jpg" width="100%" height="100%" alt="gradient" className="h-full w-full" />
+                        <Image src="/assets/images/gradient_light.jpg" layout='fill' alt="gradient" className="h-full w-full" />
                     </picture>
                     <div className="container">
                         <div className="lg:flex">

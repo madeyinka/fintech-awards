@@ -6,10 +6,10 @@ const Hero = () => {
   return (
     <section className="relative pb-10 pt-20 md:pt-32  lg:h-[88vh]">
       <picture className="pointer-events-none absolute inset-x-0 top-0 -z-10 dark:hidden">
-        <Image src="/assets/images/gradient.jpg" width="100%" height="100%" alt="gradient" />
+        <Image src="/assets/images/gradient.jpg" layout='fill' alt="gradient" />
       </picture>
       <picture className="pointer-events-none absolute inset-x-0 top-0 -z-10 hidden dark:block">
-        <Image src="/assets/images/gradient_dark.jpg" width="100%" height="100%" alt="gradient dark" />
+        <Image src="/assets/images/gradient_dark.jpg" layout='fill' alt="gradient dark" />
       </picture>
       <div className="container h-full">
         <div className="grid h-full items-center gap-4 md:grid-cols-12">

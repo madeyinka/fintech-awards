@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Image from 'next/image'
 import { Container } from '@/components/ColorSwitch'
 
-const sponsorship = () => {
+const Sponsorship = () => {
     return (
         <>
             <Header />
@@ -12,7 +12,7 @@ const sponsorship = () => {
                 <main className="pt-[5.5rem] lg:pt-24">
                     <section className="dark:bg-jacarta-800 relative py-16 md:py-24">
                         <picture className="pointer-events-none absolute inset-0 -z-10 dark:hidden">
-                            <Image src="/assets/images/gradient_light.jpg" width="100%" height="100%" alt="gradient" className="h-full w-full" />
+                            <Image src="/assets/images/gradient_light.jpg" layout='fill' alt="gradient" className="h-full w-full" />
                         </picture>
                         <div className="container text-jacarta-700 dark:text-jacarta-50 font-DmSans">
                             <h1 className="font-display mb-8 text-jacarta-700 text-center text-4xl font-medium dark:text-white">
@@ -52,4 +52,4 @@ const sponsorship = () => {
 
 }
 
-export default sponsorship
+export default Sponsorship

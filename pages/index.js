@@ -8,6 +8,10 @@ import HomeHero from '@/components/HeroHome'
 import AboutSection from '@/components/sections/About';
 import HowtoRegSection from '@/components/sections/HowtoRegister';
 import Footer from '@/components/Footer';
+import Packages from '@/components/sections/Packages';
+import PackageStep from '@/components/sections/PackageStep';
+
+
 
 
 export default function Home() {
@@ -18,6 +22,7 @@ export default function Home() {
       <HomeHero />
       <AboutSection />
       <HowtoRegSection />
+      <Packages />
       <Footer />
 
       {/* <section className="hero w-screen h-screen mt-20"></section> */}

@@ -16,7 +16,7 @@ const HowtoRegister = () => {
                 <Container className="md:py-20 py-12">
                     <div className="container">
                         <div className="grid grid-cols-1 pb-8 text-center">
-                            <h3 className="mb-1 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold uppercase">How To Register</h3>
+                            <h3 className="mb-1 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold ">How To Register</h3>
                             <p className="lg:text-lg max-w-xl mx-auto">Nigerian Fintech Awards is endorsed by Fintech1000+, Africa’s largest fintech ecosystem. </p>
                         </div>{/*end grid*/}
                         <div className="grid grid-cols-1 mt-8">

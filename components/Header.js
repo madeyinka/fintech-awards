@@ -123,7 +123,7 @@ export const Header = ({ homePage }) => {
                     </i>
                   </a>
                   <ul
-                    className="dropdown-menu dark:bg-jacarta-800 lg:-left-96 xl:-left-80 top-[85%] z-10 hidden grid-flow-col grid-rows-6 gap-x-4 whitespace-nowrap rounded-xl bg-white transition-all will-change-transform group-hover:visible group-hover:opacity-100 lg:invisible lg:absolute lg:!grid lg:translate-y-4 lg:py-8 lg:px-5 lg:opacity-0 lg:shadow-2xl lg:group-hover:translate-y-2"
+                    className="font-CalSans dropdown-menu dark:bg-jacarta-800 lg:-left-96 xl:-left-80 top-[85%] z-10 hidden grid-flow-col grid-rows-6 gap-x-4 whitespace-nowrap rounded-xl bg-white transition-all will-change-transform group-hover:visible group-hover:opacity-100 lg:invisible lg:absolute lg:!grid lg:translate-y-4 lg:py-8 lg:px-5 lg:opacity-0 lg:shadow-2xl lg:group-hover:translate-y-2"
                     aria-labelledby="navDropdown-1"
                   >
 
@@ -157,29 +157,34 @@ export const Header = ({ homePage }) => {
                     aria-labelledby="navDropdown-4"
                   >
                     <li>
-                      <a
-                        href="newsletter"
-                        className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
-                      >
-                        <span className="font-display text-jacarta-700 text-sm font-medium dark:text-white">Past Awards</span>
-                      </a>
+                      <Link href="/blog">
+                        <a
+                          className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
+                        >
+                          <span className="font-DmSans text-jacarta-700 text-sm font-medium dark:text-white">Blog</span>
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="help-center"
-                        className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
-                      >
-                        <span className="font-display text-jacarta-700 text-sm font-medium dark:text-white">Help Center</span>
-                      </a>
+                      <Link href="past-awards">
+                        <a
+
+                          className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
+                        >
+                          <span className="font-DmSans text-jacarta-700 text-sm font-medium dark:text-white">Past Awards</span>
+                        </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="blog"
-                        className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
-                      >
-                        <span className="font-display text-jacarta-700 text-sm font-medium dark:text-white">Blog</span>
-                      </a>
+                      <Link href="/sponsorship">
+                        <a
+                          className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
+                        >
+                          <span className="font-DmSans text-jacarta-700 text-sm font-medium dark:text-white">Sponsorship</span>
+                        </a>
+                      </Link>
                     </li>
+
 
                   </ul>
                 </li>
