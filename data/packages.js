@@ -22,7 +22,7 @@ const packages = [
   },
   {
     id: '3',
-    tabTitle: 'Post-Event Sponsor',
+    tabTitle: 'Post-Event ',
     tabContent: (
       <div className="text-jacarta-700 dark:text-jacarta-300">
         <p className="">

@@ -67,7 +67,6 @@ const About = () => {
                         </div>
                     </div>
                 </section>
-
             </Container>
 
             <Footer />

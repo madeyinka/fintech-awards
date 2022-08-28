@@ -2,7 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import classNames from 'classnames';
 import { Button } from '../form';
-import switchColor from '@/components/ColorSwitch'
 import CircleIcon from '@/public/assets/images/circle.png'
 import Link from 'next/link';
 import { Container } from '@/components/ColorSwitch'
@@ -12,7 +11,7 @@ import { Container } from '@/components/ColorSwitch'
 const HowtoRegister = () => {
     return (
         <>
-            <section id="how-to-register" className={classNames("relative  bg-white dark:bg-jacarta-800 text-jacarta-700 dark:text-white", { "object-cover object-[83%]  bg-cover bg-center bg-[url('/assets/images/gradient_light.jpg')] ": switchColor })}>
+            <section id="how-to-register" className={classNames("relative bg-white dark:bg-jacarta-800 text-jacarta-700 dark:text-white")}>
                 <Container className="md:py-20 py-12">
                     <div className="container">
                         <div className="grid grid-cols-1 pb-8 text-center">

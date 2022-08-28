@@ -9,7 +9,7 @@ const Packages = () => {
                     <Image src="/assets/images/gradient_light.jpg" layout='fill' alt="gradient" className="h-full" />
                 </picture>
                 <div className="container">
-                    <div className="mb-16 text-jacarta-700">
+                    <div className="mb-16 text-jacarta-700 dark:text-jacarta-100">
                         <h2 className="font-display  mb-3 text-center text-3xl dark:text-white">
                             Our Packages
                         </h2>

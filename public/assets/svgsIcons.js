@@ -4,9 +4,20 @@ export const SelectArrowIcon = (props) => (
   </svg>
 );
 export const Arrow = (props) => (
-  <svg xmlns="http://www.w3.org/2000/svg" {...props} viewBox="0 0 24 24" width={24} height={24} className="h-4 w-4 dark:fill-white">
+  // <svg xmlns="http://www.w3.org/2000/svg" {...props} viewBox="0 0 24 24" width={24} height={24} >
+  //   <path fill="none" d="M0 0h24v24H0z" />
+  //   <path d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z" />
+  // </svg>
+  <svg xmlns="http://www.w3.org/2000/svg" {...props} viewBox="0 0 24 24" width={24} height={24}>
     <path fill="none" d="M0 0h24v24H0z" />
-    <path d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z" />
+    <path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z" />
+  </svg>
+
+
+)
+export const LongArrow = (props) => (
+  <svg viewBox="0 0 20 20" {...props} width={24} height={24} fill="currentColor">
+    <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
   </svg>
 
 )

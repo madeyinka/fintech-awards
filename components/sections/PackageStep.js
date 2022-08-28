@@ -16,20 +16,17 @@ const PackageStep = () => {
             {item.tabTitle}
         </h2>
     ));
-    const TabContent = packageData.map((item, index) => (
-        <>
-            <div
-                key={index}
-                style={visibleTab === item.id ? {} : { display: 'none' }} className="border-jacarta-100 dark:bg-jacarta-700 flex rounded-[1.25rem] border bg-white py-4 px-4 lg:px-7 transition-shadow hover:shadow-lg dark:border-transparent">
-                <div className="">
+    const TabContent = packageData.map((item, id) => (
+        <div
+            key={id}
+            style={visibleTab === item.id ? {} : { display: 'none' }} className="border-jacarta-100 dark:bg-jacarta-700 flex rounded-[1.25rem] border bg-white py-4 px-4 lg:px-7 transition-shadow hover:shadow-lg dark:border-transparent">
+            <div className="">
 
-                    <h4 className="font-DmSans text-jacarta-700 lg:text-[1.125rem] my-1 font-bold dark:text-white"> {item.tabTitle}</h4>
+                <h4 className="font-DmSans text-jacarta-700 lg:text-[1.125rem] my-1 font-bold dark:text-white"> {item.tabTitle}</h4>
 
-                    <p className="dark:text-jacarta-300 lg:text-[1.125rem]">{item.tabContent}</p>
-                </div>
+                <p className="dark:text-jacarta-300 lg:text-[1.125rem]">{item.tabContent}</p>
             </div>
-
-        </>
+        </div>
     ));
     return (
         <>
