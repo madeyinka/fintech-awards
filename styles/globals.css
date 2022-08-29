@@ -160,7 +160,14 @@ section.hero {
 .header--is-sticky {
   background-color: hsla(0, 0%, 100%, 0.5);
 }
-
+.two-row-paragraph {
+  opacity: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
 .three-row-paragraph {
   opacity: 1;
   overflow: hidden;
