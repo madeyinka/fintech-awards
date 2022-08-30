@@ -10,7 +10,7 @@ const AskQuestion = () => {
                 <div className="mt-2  avatar-group text-center">
                     <div className="relative z-20 inline-flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 -ml-4  transition-all duration-200 border-2 border-white border-solid rounded-full ease-soft-in-out text-size-xs hover:z-40">
                         <Image
-                            src="/assets/team/Chidinma-Lawanson-200x200.jpg"
+                            src="/assets/team/Chidinma-Lawanson.jpg"
 
                             className="w-full rounded-full"
                             layout="fill"
@@ -21,7 +21,7 @@ const AskQuestion = () => {
                     <div className="relative z-30 inline-flex justify-center w-14 h-14 lg:w-16 lg:h-16 -ml-4  transition-all duration-200 border-2 border-white border-solid rounded-full ease-soft-in-out text-size-xs hover:z-30">
                         <Image
 
-                            src="/assets/team/Shina-Badaru-280x280.jpg"
+                            src="/assets/team/Shina-Badaru.jpg"
                             className="w-full rounded-full"
                             layout="fill"
                             alt="user3"

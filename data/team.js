@@ -19,14 +19,14 @@ const team = [
     {
 
         name: 'Chidinma Lawanson',
-        imagePath: '/assets/team/Chidinma-Lawanson-200x200.jpg ',
+        imagePath: '/assets/team/Chidinma-Lawanson.jpg ',
         title: 'Member'
     },
 
     {
 
         name: ' Shina Badarue ',
-        imagePath: '/assets/team/Shina-Badaru-280x280.jpg ',
+        imagePath: '/assets/team/Shina-Badaru.jpg ',
         title: 'Member'
     },
     {
