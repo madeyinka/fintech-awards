@@ -4,7 +4,7 @@ const Packages = () => {
     return (
 
         <>
-            <section className="dark:bg-jacarta-800 relative py-5">
+            <section id="packages" className="dark:bg-jacarta-800 relative py-5">
                 <picture className="pointer-events-none absolute inset-0 -z-10 dark:hidden">
                     <Image src="/assets/images/gradient_light.jpg" layout='fill' alt="gradient" className="h-full" />
                 </picture>

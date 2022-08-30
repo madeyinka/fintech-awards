@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import ThemeToggle from './ThemeToggle';
-import menuData from '@/data/menu'
+import { menu, menuList } from '@/data/menu'
 import NavLink from '@/components/NavLink'
 import classNames from 'classnames';
+import NavBar from '@/components/Navbar'
 
 import { Logo, LogoSwitch } from '@/components/Logo'
 
@@ -103,7 +104,7 @@ export const Header = ({ homePage }) => {
                   </Link>
 
                 </li>
-                <li className="nav-item dropdown group relative">
+                <li className="group relative">
                   <a
                     className={classNames({ 'text-jacarta-50': top && homePage }, { 'text-jacarta-800': top && !homePage }, "font-display hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { 'text-jacarta-800': !top })}
                     aria-expanded="false"
@@ -127,7 +128,7 @@ export const Header = ({ homePage }) => {
                     aria-labelledby="navDropdown-1"
                   >
 
-                    {menuData.map((data, index) => {
+                    {menuList.map((data, index) => {
                       return <NavLink key={index} name={data.name} url={data.url} />;
                     })}
 

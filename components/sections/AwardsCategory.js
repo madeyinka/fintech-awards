@@ -9,10 +9,10 @@ import { LongArrow } from '@/public/assets/svgsIcons'
 
 
 export const StepButton = ({ title, onClick, leftIcon, rightIcon }) => (
-    <div className="text-center " onClick={onClick}>
-        <a className="text-jacarta-800 flex items-center gap-x-2 justify-center hover:text-accent dark:text-jacarta-300">
+    <div className="text-center  " onClick={onClick}>
+        <a className="text-jacarta-800 cursor-pointer flex items-center gap-x-2 justify-center hover:text-accent dark:text-jacarta-300">
             {leftIcon}
-            <h6>{title}</h6>
+            <h6 >{title}</h6>
             {rightIcon}
 
         </a>
@@ -64,8 +64,8 @@ const PackageTab = () => {
     return (
         <>
             <Container className=" pt-3">
-                <div>
-                    <div className="mb-4 text-jacarta-700 dark:text-jacarta-100">
+                <div >
+                    <div id="categories" className="mb-4 text-jacarta-700 dark:text-jacarta-100">
                         <h2 className="font-display  mb-3 text-center text-3xl dark:text-white">
                             Awards Categories
                         </h2>
