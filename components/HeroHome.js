@@ -18,8 +18,8 @@ function HeroHome() {
         <div className="home__container containerbox gridbox">
 
           <div className="flex items-center mx-auto justify-center max-w-4xl">
-            <div className="py-24 pt-40 lg:pt-48  text-center ">
-              <h1 className={classNames("font-display mb-6 text-5xl tracking-normal lg:text-6xl xl:text-7xl animated", { 'text-white': mounted && (theme === 'dark' || resolvedTheme === 'dark') }, { 'color-font ': mounted && (theme === 'light' || resolvedTheme === 'light') })}>
+            <div className="py-24 pt-28 lg:pt-48  text-center ">
+              <h1 className={classNames("font-display mb-6 text-[3rem] leading-[3.75rem] tracking-wider lg:text-6xl xl:text-7xl animated", { 'text-white': mounted && (theme === 'dark' || resolvedTheme === 'dark') }, { 'color-font ': mounted && (theme === 'light' || resolvedTheme === 'light') })}>
                 The Nigerian Fintech Awards
               </h1>
               <p className="text-white three-row-paragraph mb-8 lg:text-[1.375rem] text-[1.125rem] leading-7  2xl:text-xl ">Dedicated  to honouring excellence in financial technologies and services companies and products. The Awards provide public recognition for the achievements of FinTech companies and products in categories </p>
