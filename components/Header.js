@@ -661,7 +661,7 @@ export const Header = ({ homePage }) => {
           <div className="my-10 w-full lg:hidden">
             <a
               href="#"
-              className="js-wallet bg-accent shadow-accent-volume hover:bg-accent-dark block w-full rounded-full py-3 px-8 text-center font-semibold text-white transition-all"
+              className="js-wallet bg-accent shadow-accent-volume hover:bg-jacarta-650 block w-full rounded-full py-3 px-8 text-center font-semibold text-white transition-all"
               data-bs-toggle="modal"
               data-bs-target="#walletModal"
             >

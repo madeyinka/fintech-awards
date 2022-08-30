@@ -22,14 +22,14 @@ export const menuList = [
   {
     icon: <Portfolio />,
     name: 'Wealth Management',
-    url: '/awards-categories/#wealth-management ',
+    url: '/awards-categories/#wealth-management',
     color: false
   },
 
   {
     icon: <Community />,
     name: ' Personal Finance ',
-    url: '/awards-categories/#personal-finance ',
+    url: '/awards-categories/#personal-finance',
     color: false
   },
   {
@@ -102,7 +102,7 @@ export const menuList = [
   {
     icon: <Report />,
     name: 'Cryptocurrency ',
-    url: '/awards-categories/#cryptocurrency ',
+    url: '/awards-categories/#cryptocurrency',
     color: false
   },
   {
@@ -140,7 +140,7 @@ export const menu = [
     subMenu: [
       {
         icon: <Overview />,
-        name: 'Consumer & Corporate Banking  ',
+        name: 'Consumer & Corporate Banking',
         url: '/awards-categories/#consumer-&-corporate-banking',
         color: false
       },
@@ -159,14 +159,14 @@ export const menu = [
       {
         icon: <Portfolio />,
         name: 'Wealth Management',
-        url: '/awards-categories/#wealth-management ',
+        url: '/awards-categories/#wealth-management',
         color: false
       },
 
       {
         icon: <Community />,
         name: ' Personal Finance ',
-        url: '/awards-categories/#personal-finance ',
+        url: '/awards-categories/#personal-finance',
         color: false
       },
       {
@@ -201,7 +201,7 @@ export const menu = [
       },
       {
         icon: <Settings />,
-        name: 'Financial Research and Data ',
+        name: 'Financial Research and Data',
         url: '/awards-categories/#financial-research-and-data',
         color: false
       },

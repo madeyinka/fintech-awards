@@ -15,7 +15,7 @@ const HowtoRegister = () => {
                 <Container className="md:py-20 py-12">
                     <div className="container">
                         <div className="grid grid-cols-1 pb-8 text-center">
-                            <h3 className="mb-1 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold ">How To Register</h3>
+                            <h3 className="mb-1 tracking-wider md:leading-normal lg:text-[46px] text-3xl leading-normal font-semibold ">How To Register</h3>
                             <p className="lg:text-lg max-w-xl mx-auto">Nigerian Fintech Awards is endorsed by Fintech1000+, Africa’s largest fintech ecosystem. </p>
                         </div>{/*end grid*/}
                         <div className="grid grid-cols-1 mt-8">
@@ -33,8 +33,8 @@ const HowtoRegister = () => {
                                         </div>{/*end col*/}
                                         <div className="mt-4 md:mt-0">
                                             <div className="event event-description-right float-left text-left md:ml-8">
-                                                <h5 className="title mb-1 font-semibold">WHO CAN ENTER?</h5>
-                                                <p className="timeline-subtitle mt-3 mb-0 text-slate-400">The Nigerian FinTech Awards are open to financial institutions, fintech firms and services providers and other relevant players of the fintech industry in Nigeria. PR agencies, consultants, vendors and other industry participants are welcome to put in an entry on behalf of their clients, but must have prior approval from them to do so.</p>
+                                                <h5 className="title mb-1 lg:text-3xl text-2xl font-semibold">WHO CAN ENTER?</h5>
+                                                <p className="timeline-subtitle mt-3 text-[1.125rem] lg:text-[1.25rem] leading-[2rem]">The Nigerian FinTech Awards are open to financial institutions, fintech firms and services providers and other relevant players of the fintech industry in Nigeria. PR agencies, consultants, vendors and other industry participants are welcome to put in an entry on behalf of their clients, but must have prior approval from them to do so.</p>
                                             </div>
                                         </div>{/*end col*/}
                                     </div>{/*end grid*/}
@@ -43,28 +43,28 @@ const HowtoRegister = () => {
                                     <div className="grid sm:grid-cols-2">
                                         <div className="md:order-1 order-2">
                                             <div className="event event-description-left float-left text-left md:text-right md:mr-8">
-                                                <h5 className="title mb-1 font-semibold">SUBMITTING AN ENTRY</h5>
-                                                <p className="timeline-subtitle mt-3 mb-0 text-slate-400">
+                                                <h5 className="title mb-1  lg:text-3xl text-2xl font-semibold">SUBMITTING AN ENTRY</h5>
+                                                <div className="text-[1.125rem] lg:text-[1.25rem] leading-[2rem]">
 
-                                                    All entries must be written in English and submitted via our online entries portal.
+                                                    <p className="timeline-subtitle mt-3">
 
-                                                </p>
-                                                <p className="timeline-subtitle mt-3 mb-0 text-slate-400">
-                                                    All entries should be no longer than 1,500 words.
+                                                        All entries must be written in English and submitted via our online entries portal.
 
-                                                </p>
-                                                <p className="timeline-subtitle mt-3 mb-0 text-slate-400">
+                                                    </p>
+                                                    <p className="timeline-subtitle mt-3">
+                                                        All entries should be no longer than 1,500 words.
 
-                                                    Supporting material may be supplied, but the main entry of up to 1,500 words should include all information you deem necessary for your awards entry.
-                                                </p>
+                                                    </p>
+                                                    <p className="timeline-subtitle mt-3">
+
+                                                        Supporting material may be supplied, but the main entry of up to 1,500 words should include all information you deem necessary for your awards entry.
+                                                    </p>
+                                                </div>
 
                                             </div>
                                         </div>{/*end col*/}
                                         <div className="md:order-2 order-1">
                                             <div className="duration duration-right before:bg-jacarta-800 dark:before:bg-white md:ml-8 relative">
-                                                {/* <Image src={CircleIcon} width="36px" height="36px" className="rounded-full h-9 w-9 md:ml-auto" alt="" /> */}
-                                                {/* <h5 className="my-2 font-semibold">Google Tech.</h5>
-                                            <h6 className="text-slate text-sm mb-0">2018-19</h6> */}
                                                 <h6 className=" text-2xl">2 <sup><small>nd</small></sup></h6>
                                                 <h5 className="-mt-2 font-semibold pb-1">STEP </h5>
                                             </div>
@@ -82,9 +82,9 @@ const HowtoRegister = () => {
                                         </div>{/*end col*/}
                                         <div className="mt-4 mt-sm-0">
                                             <div className="event event-description-right float-left text-left md:ml-8">
-                                                <h5 className="title mb-1 font-semibold">WHAT INFORMATION TO SUBMIT</h5>
-                                                <p className="timeline-subtitle text-[18px] mt-3 mb-3 ">The more detail the better! We suggest including the following information:</p>
-                                                <ol type={1} className="space-y-2">
+                                                <h5 className="title mb-1  lg:text-3xl text-2xl font-semibold">WHAT INFORMATION TO SUBMIT</h5>
+                                                <p className="timeline-subtitle mt-3 mb-3 text-[1.125rem] lg:text-[1.25rem] leading-[2rem] ">The more detail the better! We suggest including the following information:</p>
+                                                <ol type={1} className="space-y-2 text-[1.125rem] lg:text-[1.25rem] leading-[2rem]">
                                                     <li><b>1.</b>  Dates of the overall project.</li>
                                                     <li><b>2.</b> All entries should be for the period of the last two years.</li>
                                                     <li><b>3.</b> The rationale for the project.</li>
@@ -96,7 +96,7 @@ const HowtoRegister = () => {
                                                     <li><b>9.</b> Any other information, statistics, facts and figures etc that you think will help us to understand the project better.</li>
 
                                                 </ol>
-                                                <div className="space-y-2">
+                                                <div className="space-y-2 text-[1.125rem] lg:text-[1.25rem] leading-[2rem]">
                                                     <p className="pt-2">The entry must be tailored to the specific category and the project you are applying with. The judges are looking for a comprehensive, to-the-point, clear entry with facts and figures to support it. Hence, we strongly suggest NOT to submit the following:</p>
                                                     <p> – Generic promotional material and sales brochures.</p>
 

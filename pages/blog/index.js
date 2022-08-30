@@ -34,7 +34,7 @@ const Blog = () => {
                             </div>
                             {/* Load More */}
                             <div className="mt-10 text-center">
-                                <a href="blog" className="bg-accent shadow-accent-volume hover:bg-accent-dark inline-block rounded-full py-3 px-8 text-center font-semibold text-white transition-all">Load More</a>
+                                <a href="blog" className="bg-accent shadow-accent-volume hover:bg-jacarta-650 inline-block rounded-full py-3 px-8 text-center font-semibold text-white transition-all">Load More</a>
                             </div>
                         </div>
                     </section>

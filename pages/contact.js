@@ -47,7 +47,7 @@ const contact = () => {
                                         <input type="checkbox" id="contact-form-consent-input" name="agree-to-terms" className="checked:bg-accent dark:bg-jacarta-600 text-accent border-jacarta-200 focus:ring-accent/20 dark:border-jacarta-500 h-5 w-5 self-start rounded focus:ring-offset-0" />
                                         <label htmlFor="contact-form-consent-input" className="dark:text-jacarta-200 text-sm">I agree to the <a href="tos.html" className="text-accent">Terms of Service</a></label>
                                     </div>
-                                    <button type="submit" className="bg-accent shadow-accent-volume hover:bg-accent-dark rounded-full py-3 px-8 text-center font-semibold text-white transition-all" id="contact-form-submit">
+                                    <button type="submit" className="bg-accent shadow-accent-volume hover:bg-jacarta-650 rounded-full py-3 px-8 text-center font-semibold text-white transition-all" id="contact-form-submit">
                                         Submit
                                     </button>
                                     <div id="contact-form-notice" className="relative mt-4 hidden rounded-lg border border-transparent p-4" />

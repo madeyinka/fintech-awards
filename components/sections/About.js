@@ -53,16 +53,16 @@ const About = () => {
                         </div>
                         <div className="lg:col-span-7 md:col-span-6 mt-8 md:mt-0">
                             <div className="lg:ml-5">
-                                <h3 className="mb-6 md:text-3xl lg:text-4xl text-2xl md:leading-normal leading-normal text-center md:text-left font-medium text-black dark:text-white">About Nigerian Fintech Awards </h3>
+                                <h3 className="mb-6 lg:text-[46px] text-3xl leading-normal text-center md:text-left font-medium text-black dark:text-white">About Nigerian Fintech Awards </h3>
                                 <div className="ten-row-paragraph">
                                     <p className="max-w-[38.9375rem] font-DmSans xl:text-[18px] ">Founded in 2012, the Nigerian Fintech Awards are dedicated to honoring excellence in financial technologies and services companies and products. The Awards provide public recognition for the achievements of FinTech companies and products in many categories. These include Payments, Personal Finance, Wealth Management, Fraud Protection, Banking, Lending, RegTech, InsurTech, and more. Nigerian Fintech Awards has no tie with any Fintech company. </p>
                                     <p className="max-w-[38.9375rem] font-DmSans xl:text-[18px] pt-1">This means that our decisions and actions are independent of any interest or operational restrictions. The ethos of the awards is in line with this freedom. Emaginations promotes the Nigerian Fintech Awards.</p>
 
                                 </div>
-                                <div className="mt-6 lg:mt-10 text-center">
+                                <div className="mt-8 lg:mt-12 text-center">
                                     <Link href="/about" passHref>
                                         <a>
-                                            <Button className="uppercase" color="secondary"> Learn More</Button>
+                                            <Button className="" color="secondary"> Learn More</Button>
                                         </a>
                                     </Link>
 

@@ -18,21 +18,21 @@ function HeroHome() {
         <div className="home__container containerbox gridbox">
 
           <div className="flex items-center mx-auto justify-center max-w-4xl">
-            <div className="py-24 pt-32 xl:pt-36 text-center ">
-              <h1 className={classNames("font-display mb-6 text-5xl lg:text-6xl xl:text-7xl animated", { 'text-white': mounted && (theme === 'dark' || resolvedTheme === 'dark') }, { 'color-font ': mounted && (theme === 'light' || resolvedTheme === 'light') })}>
+            <div className="py-24 pt-52  text-center ">
+              <h1 className={classNames("font-display mb-6 text-5xl tracking-normal lg:text-6xl xl:text-7xl animated", { 'text-white': mounted && (theme === 'dark' || resolvedTheme === 'dark') }, { 'color-font ': mounted && (theme === 'light' || resolvedTheme === 'light') })}>
                 The Nigerian Fintech Awards
               </h1>
-              <p className="text-white three-row-paragraph mb-8 lg:text-[22px] text-base 2xl:text-xl ">Dedicated to honouring excellence in financial technologies and services companies and products. The Awards provide public recognition for the achievements of FinTech companies and products in categories </p>
+              <p className="text-white three-row-paragraph mb-8 lg:text-[22px] text-base  2xl:text-xl ">Dedicated  to honouring excellence in financial technologies and services companies and products. The Awards provide public recognition for the achievements of FinTech companies and products in categories </p>
               <div className="inline-flex space-x-4">
-                <Link href="/category" passHref>
+                <Link href="/awards-categories" passHref>
                   <a>
-                    <Button>BROWSE  CATEGORIES</Button>
+                    <Button className="">Browse Categories</Button>
                   </a>
                 </Link>
 
                 <Link href="#how-to-register" passHref>
                   <a>
-                    <Button className="hidden lg:flex" color="secondary">HOW TO ENTER </Button>
+                    <Button className="hidden lg:flex" color="secondary">How To Enter</Button>
                   </a>
                 </Link>
 

@@ -81,9 +81,9 @@ const BlogDetails = () => {
                                 <div className="entry-footer flex flex-wrap lg:flex-nowrap items-center justify-between border-b border-t border-jacarta-300 py-4 mb-8 lg:mb-14">
                                     <div className="flex flex-wrap items-center">
                                         <h4 className="font-display text-jacarta-600 font-bold mr-2 dark:text-white">Tags:</h4>
-                                        <a className="btn block text-jacarta-900 font-body rounded py-2 px-4 mr-2 my-1 transition-all duration-500 shadow-white-volume custom-shadow hover:shadow-accent-volume bg-white hover:text-white hover:bg-accent-dark" href="tag">Auction</a>
-                                        <a className="btn block text-jacarta-900 font-body rounded py-2 px-4 mr-2 my-1 transition-all duration-500 shadow-white-volume custom-shadow hover:shadow-accent-volume bg-white hover:text-white hover:bg-accent-dark" href="tag">Creator</a>
-                                        <a className="btn block text-jacarta-900 font-body rounded py-2 px-4 mr-2 my-1 transition-all duration-500 shadow-white-volume custom-shadow hover:shadow-accent-volume bg-white hover:text-white hover:bg-accent-dark" href="tag">Marketplace</a>
+                                        <a className="btn block text-jacarta-900 font-body rounded py-2 px-4 mr-2 my-1 transition-all duration-500 shadow-white-volume custom-shadow hover:shadow-accent-volume bg-white hover:text-white hover:bg-jacarta-650" href="tag">Auction</a>
+                                        <a className="btn block text-jacarta-900 font-body rounded py-2 px-4 mr-2 my-1 transition-all duration-500 shadow-white-volume custom-shadow hover:shadow-accent-volume bg-white hover:text-white hover:bg-jacarta-650" href="tag">Creator</a>
+                                        <a className="btn block text-jacarta-900 font-body rounded py-2 px-4 mr-2 my-1 transition-all duration-500 shadow-white-volume custom-shadow hover:shadow-accent-volume bg-white hover:text-white hover:bg-jacarta-650" href="tag">Marketplace</a>
                                     </div>
                                     <div className="social-share flex items-center">
                                         <a className="flex items-center justify-center w-10 h-10 bg-jacarta-200 rounded-lg border border-jacarta-200 transition duration-500 hover:bg-jacarta-100 mr-2" href="https://www.facebook.com/" >
@@ -220,7 +220,7 @@ const BlogDetails = () => {
                                     <div className="col-span-2 mb-4">
                                         <textarea rows={4} className="border border-jacarta-300 rounded w-full px-4 py-3 font-body text-jacarta-900 placeholder-jacarta-900 bg-jacarta-100 transition duration-500 focus:shadow-lg focus:border-indigo-500 focus:outline-none" placeholder="Comment" defaultValue={""} />
                                     </div>
-                                    <div><button type="submit" className="btn inline-block text-jacarta-900 font-body font-medium rounded py-3 px-6 transition-all duration-500 shadow-white-volume custom-shadow hover:shadow-accent-volume bg-white hover:text-white hover:bg-accent-dark ">Add Comment</button></div>
+                                    <div><button type="submit" className="btn inline-block text-jacarta-900 font-body font-medium rounded py-3 px-6 transition-all duration-500 shadow-white-volume custom-shadow hover:shadow-accent-volume bg-white hover:text-white hover:bg-jacarta-650 ">Add Comment</button></div>
                                 </form>
                             </div>
                             <div className="lg:col-span-5 xl:col-span-4">
@@ -241,22 +241,22 @@ const BlogDetails = () => {
                                 <div className="bg-light-base rounded border border-jacarta-300 transition duration-500 hover:shadow-lg px-6 py-8 mb-14 aos-init aos-animate" data-aos="fade-up">
                                     <h3 className="font-display text-3xl text-jacarta-900 font-bold mb-6">Categories </h3>
                                     <div className="block">
-                                        <a className="flex justify-between border border-jacarta-300 hover:border-indigo-500 text-jacarta-600 hover:text-accent-dark font-body rounded py-3 px-4 mb-4 transition duration-500 hover:bg-jacarta-100" href="category"><span>Creator</span> <span>24</span></a>
-                                        <a className="flex justify-between border border-jacarta-300 hover:border-indigo-500 text-jacarta-600 hover:text-accent-dark font-body rounded py-3 px-4 mb-4 transition duration-500 hover:bg-jacarta-100" href="category"><span>Auction</span> <span>20</span></a>
-                                        <a className="flex justify-between border border-jacarta-300 hover:border-indigo-500 text-jacarta-600 hover:text-accent-dark font-body rounded py-3 px-4 mb-4 transition duration-500 hover:bg-jacarta-100" href="category"><span>Marketplace</span> <span>17</span></a>
-                                        <a className="flex justify-between border border-jacarta-300 hover:border-indigo-500 text-jacarta-600 hover:text-accent-dark font-body rounded py-3 px-4 mb-4 transition duration-500 hover:bg-jacarta-100" href="category"><span>Sports</span> <span>13</span></a>
-                                        <a className="flex justify-between border border-jacarta-300 hover:border-indigo-500 text-jacarta-600 hover:text-accent-dark font-body rounded py-3 px-4 mb-4 transition duration-500 hover:bg-jacarta-100" href="category"><span>Outing</span> <span>11</span></a>
+                                        <a className="flex justify-between border border-jacarta-300 hover:border-indigo-500 text-jacarta-600 hover:text-jacarta-650 font-body rounded py-3 px-4 mb-4 transition duration-500 hover:bg-jacarta-100" href="category"><span>Creator</span> <span>24</span></a>
+                                        <a className="flex justify-between border border-jacarta-300 hover:border-indigo-500 text-jacarta-600 hover:text-jacarta-650 font-body rounded py-3 px-4 mb-4 transition duration-500 hover:bg-jacarta-100" href="category"><span>Auction</span> <span>20</span></a>
+                                        <a className="flex justify-between border border-jacarta-300 hover:border-indigo-500 text-jacarta-600 hover:text-jacarta-650 font-body rounded py-3 px-4 mb-4 transition duration-500 hover:bg-jacarta-100" href="category"><span>Marketplace</span> <span>17</span></a>
+                                        <a className="flex justify-between border border-jacarta-300 hover:border-indigo-500 text-jacarta-600 hover:text-jacarta-650 font-body rounded py-3 px-4 mb-4 transition duration-500 hover:bg-jacarta-100" href="category"><span>Sports</span> <span>13</span></a>
+                                        <a className="flex justify-between border border-jacarta-300 hover:border-indigo-500 text-jacarta-600 hover:text-jacarta-650 font-body rounded py-3 px-4 mb-4 transition duration-500 hover:bg-jacarta-100" href="category"><span>Outing</span> <span>11</span></a>
                                     </div>
                                 </div>
                                 <div className="bg-light-base rounded border border-jacarta-300 transition duration-500 hover:shadow-lg px-6 py-8 mb-14 aos-init aos-animate" data-aos="fade-up">
                                     <h3 className="font-display text-3xl text-jacarta-900 font-bold mb-3">Tags </h3>
                                     <div className="flex flex-wrap">
-                                        <a className="btn block border border-jacarta-300 hover:border-indigo-500 text-jacarta-600 hover:text-accent-dark font-body rounded py-3 px-5 mr-4 mt-4 transition duration-500 hover:bg-jacarta-100" href="tag">Paid Marketing</a>
-                                        <a className="btn block border border-jacarta-300 hover:border-indigo-500 text-jacarta-600 hover:text-accent-dark font-body rounded py-3 px-5 mr-4 mt-4 transition duration-500 hover:bg-jacarta-100" href="tag">Digital Marketing</a>
-                                        <a className="btn block border border-jacarta-300 hover:border-purple-500 text-jacarta-600 hover:text-accent-dark font-body rounded py-3 px-5 mr-4 mt-4 transition duration-500 hover:bg-jacarta-100" href="tag">Blues</a>
-                                        <a className="btn block border border-jacarta-300 hover:border-indigo-500 text-jacarta-600 hover:text-accent-dark font-body rounded py-3 px-5 mr-4 mt-4 transition duration-500 hover:bg-jacarta-100" href="tag">COVID</a>
-                                        <a className="btn block border border-jacarta-300 hover:border-purple-500 text-jacarta-600 hover:text-accent-dark font-body rounded py-3 px-5 mr-4 mt-4 transition duration-500 hover:bg-jacarta-100" href="tag">Web Design</a>
-                                        <a className="btn block border border-jacarta-300 hover:border-indigo-500 text-jacarta-600 hover:text-accent-dark font-body rounded py-3 px-5 mr-4 mt-4 transition duration-500 hover:bg-jacarta-100" href="tag">Content Marketing</a>
+                                        <a className="btn block border border-jacarta-300 hover:border-indigo-500 text-jacarta-600 hover:text-jacarta-650 font-body rounded py-3 px-5 mr-4 mt-4 transition duration-500 hover:bg-jacarta-100" href="tag">Paid Marketing</a>
+                                        <a className="btn block border border-jacarta-300 hover:border-indigo-500 text-jacarta-600 hover:text-jacarta-650 font-body rounded py-3 px-5 mr-4 mt-4 transition duration-500 hover:bg-jacarta-100" href="tag">Digital Marketing</a>
+                                        <a className="btn block border border-jacarta-300 hover:border-purple-500 text-jacarta-600 hover:text-jacarta-650 font-body rounded py-3 px-5 mr-4 mt-4 transition duration-500 hover:bg-jacarta-100" href="tag">Blues</a>
+                                        <a className="btn block border border-jacarta-300 hover:border-indigo-500 text-jacarta-600 hover:text-jacarta-650 font-body rounded py-3 px-5 mr-4 mt-4 transition duration-500 hover:bg-jacarta-100" href="tag">COVID</a>
+                                        <a className="btn block border border-jacarta-300 hover:border-purple-500 text-jacarta-600 hover:text-jacarta-650 font-body rounded py-3 px-5 mr-4 mt-4 transition duration-500 hover:bg-jacarta-100" href="tag">Web Design</a>
+                                        <a className="btn block border border-jacarta-300 hover:border-indigo-500 text-jacarta-600 hover:text-jacarta-650 font-body rounded py-3 px-5 mr-4 mt-4 transition duration-500 hover:bg-jacarta-100" href="tag">Content Marketing</a>
                                     </div>
                                 </div>
                                 <div className="bg-light-base rounded border border-jacarta-300 transition duration-500 hover:shadow-lg px-6 py-8 mb-14 aos-init aos-animate" data-aos="fade-up">

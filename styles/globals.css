@@ -58,11 +58,12 @@
   p,
   ul,
   li,
-  span {
-    font-family: 'Manrope', 'sans-serif';
-  }
   a,
   button,
+  span {
+    font-family: 'DM Sans', 'sans-serif';
+  }
+
   h1,
   h2,
   h3,
