@@ -48,7 +48,7 @@ const BlogDetails = () => {
                                 <div className="xl:flex items-center justify-between my-8">
                                     <div className="flex items-center relative my-6">
                                         <div className="flex flex-wrap items-center mr-10">
-                                            <Image width={40} height={40} className="border-2 border-white w-10 h-10 object-cover rounded-full" src="/assets/team/Adewale-Yusuf-2-300x300.png" alt="title" />
+                                            <Image width={40} height={40} className="border-2 border-white w-10 h-10 object-cover rounded-full" src="/assets/team/Adewale-Yusuf.png" alt="title" />
                                             <div className="ml-2">
                                                 <h6 className="font-display text-jacarta-900 dark:text-white font-bold transition duration-500 hover:text-jacarta-500"><a href="creator-published">Adams Smith</a></h6>
                                                 <p className="font-body text-sm text-jacarta-600 dark:text-jacarta-100">FinTech Blogger</p>
@@ -108,7 +108,7 @@ const BlogDetails = () => {
                                     </div>
                                 </div>
                                 <div className="entry-author bg-white rounded shadow transition duration-500 hover:shadow-lg flex justify-between px-6 py-12 mb-8 lg:mb-14">
-                                    <Image className="w-16 h-16 lg:w-28 lg:h-28 object-cover rounded-full" width={350} height={350} src="/assets/team/Adewale-Yusuf-2-300x300.png" alt="title" />
+                                    <Image className="w-16 h-16 lg:w-28 lg:h-28 object-cover rounded-full" width={350} height={350} src="/assets/team/Adewale-Yusuf.png" alt="title" />
                                     <div className="pl-6">
                                         <h4 className="font-display text-xl text-jacarta-900 font-bold transition duration-500 hover:text-indigo-500"><a href="creator-published">Robert Mill</a></h4>
                                         <p className="font-body text-jacarta-600 mt-2">I was born in Kansas, and like little Ellie, I always dreamed that a hurricane would take me ipsum somewhere to another country. And once I really ended up in another country - in China, to take studying at a business school.</p>
@@ -121,7 +121,7 @@ const BlogDetails = () => {
                                     </p>
                                     <div className="flex items-center justify-between mt-4">
                                         <div className="flex items-center mt-2">
-                                            <Image className="border-2 border-white w-8 h-8 object-cover rounded-full" width={40} height={40} src="/assets/team/Adewale-Yusuf-2-300x300.png" alt="title" />
+                                            <Image className="border-2 border-white w-8 h-8 object-cover rounded-full" width={40} height={40} src="/assets/team/Adewale-Yusuf.png" alt="title" />
                                             <div className="ml-2">
                                                 <h6 className="font-display text-jacarta-900 font-bold transition duration-500 hover:text-indigo-500">
                                                     <a href="creator-published">Steven Robart</a></h6>
@@ -138,7 +138,7 @@ const BlogDetails = () => {
                                     <p className="font-body typofix text-jacarta-600">Is nature, listen. Felt me. Tones it could attempt. Who like the doctor many was are to encouraged room. Feedback accordingly what entrance that fate how at represent and publication easier step and or that one hesitated italic the we lively. Fur son, schemes</p>
                                     <div className="flex items-center justify-between mt-4">
                                         <div className="flex items-center mt-2">
-                                            <Image className="border-2 border-white w-8 h-8 object-cover rounded-full" width={40} height={40} src="/assets/team/Adewale-Yusuf-2-300x300.png" alt="title" />
+                                            <Image className="border-2 border-white w-8 h-8 object-cover rounded-full" width={40} height={40} src="/assets/team/Adewale-Yusuf.png" alt="title" />
                                             <div className="ml-2">
                                                 <h6 className="font-display text-jacarta-900 font-bold transition duration-500 hover:text-indigo-500">
                                                     <a href="creator-published">Kristin Watson</a></h6>
@@ -155,7 +155,7 @@ const BlogDetails = () => {
                                     <p className="font-body  typofix text-jacarta-600">Designer; Could in which only versus in, officers are was appeared the collection fresh table its around big countries geared to nice equally but free in without. Any its her from poverty being because curiously, tone was appeared the both to gm dragged in up can and on their kno</p>
                                     <div className="flex items-center justify-between mt-4">
                                         <div className="flex items-center mt-2">
-                                            <Image className="border-2 border-white w-8 h-8 object-cover rounded-full" width={40} height={40} src="/assets/team/Adewale-Yusuf-2-300x300.png" alt="title" />
+                                            <Image className="border-2 border-white w-8 h-8 object-cover rounded-full" width={40} height={40} src="/assets/team/Adewale-Yusuf.png" alt="title" />
                                             <div className="ml-2">
                                                 <h6 className="font-display text-jacarta-900 font-bold transition duration-500 hover:text-indigo-500"><a href="creator-published">Devon Lane</a></h6>
                                             </div>
@@ -171,7 +171,7 @@ const BlogDetails = () => {
                                     <p className="font-body typofix text-jacarta-600">Proposal. Proceeded to salesmen the implemented aged create subjective you you d fame, in flatter maybe frequencies on</p>
                                     <div className="flex items-center justify-between mt-4">
                                         <div className="flex items-center mt-2">
-                                            <Image className="border-2 border-white w-8 h-8 object-cover rounded-full" width={40} height={40} src="/assets/team/Adewale-Yusuf-2-300x300.png" alt="title" />
+                                            <Image className="border-2 border-white w-8 h-8 object-cover rounded-full" width={40} height={40} src="/assets/team/Adewale-Yusuf.png" alt="title" />
                                             <div className="ml-2">
                                                 <h6 className="font-display text-jacarta-900 font-bold transition duration-500 hover:text-indigo-500"><a href="creator-published">Jerome Bell</a></h6>
                                             </div>

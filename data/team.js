@@ -13,32 +13,32 @@ const team = [
     {
 
         name: 'Sunday Afolayan',
-        imagePath: '/assets/team/Sunday-Afolayan-300x300.png',
+        imagePath: '/assets/team/Sunday-Afolayan.png',
         title: 'Member'
     },
     {
 
         name: 'Chidinma Lawanson',
-        imagePath: '/assets/team/Chidinma-Lawanson.jpg ',
+        imagePath: '/assets/team/Chidinma-Lawanson.jpg',
         title: 'Member'
     },
 
     {
 
         name: ' Shina Badarue ',
-        imagePath: '/assets/team/Shina-Badaru.jpg ',
+        imagePath: '/assets/team/Shina-Badaru.jpg',
         title: 'Member'
     },
     {
 
         name: 'Adewale Yusuf',
-        imagePath: '/assets/team/Adewale-Yusuf-2-300x300.png',
+        imagePath: '/assets/team/Adewale-Yusuf.png',
         title: 'Member'
     },
     {
 
         name: 'Bayo Adewolu',
-        imagePath: '/assets/team/Bayo-Adewolu-2-300x300.png',
+        imagePath: '/assets/team/Bayo-Adewolu.png',
         title: 'Member'
     }
 
