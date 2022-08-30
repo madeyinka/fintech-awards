@@ -18,7 +18,7 @@ function HeroHome() {
         <div className="home__container containerbox gridbox">
 
           <div className="flex items-center mx-auto justify-center max-w-4xl">
-            <div className="py-24 pt-52  text-center ">
+            <div className="py-24 pt-40 lg:pt-48  text-center ">
               <h1 className={classNames("font-display mb-6 text-5xl tracking-normal lg:text-6xl xl:text-7xl animated", { 'text-white': mounted && (theme === 'dark' || resolvedTheme === 'dark') }, { 'color-font ': mounted && (theme === 'light' || resolvedTheme === 'light') })}>
                 The Nigerian Fintech Awards
               </h1>

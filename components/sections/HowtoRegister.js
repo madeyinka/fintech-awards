@@ -26,7 +26,7 @@ const HowtoRegister = () => {
                                         <div className="">
                                             <div className="duration  date-label-left before:bg-jacarta-800 dark:before:bg-white   md:text-right md:mr-8 relative">
                                                 {/* <Image src={CircleIcon} width="36px" height="36px" className="rounded-full rotate-180 h-9 w-9 md:ml-auto" alt="" /> */}
-                                                <h6 className=" text-2xl">1 <sup><small>st</small></sup></h6>
+                                                <h6 className=" text-3xl">1 <sup><small>st</small></sup></h6>
                                                 <h5 className="-mt-2 font-semibold pb-1">STEP </h5>
 
                                             </div>
@@ -65,7 +65,7 @@ const HowtoRegister = () => {
                                         </div>{/*end col*/}
                                         <div className="md:order-2 order-1">
                                             <div className="duration duration-right before:bg-jacarta-800 dark:before:bg-white md:ml-8 relative">
-                                                <h6 className=" text-2xl">2 <sup><small>nd</small></sup></h6>
+                                                <h6 className=" text-3xl">2 <sup><small>nd</small></sup></h6>
                                                 <h5 className="-mt-2 font-semibold pb-1">STEP </h5>
                                             </div>
                                         </div>{/*end col*/}
