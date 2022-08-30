@@ -139,7 +139,7 @@ function Footer() {
                 <h4 className="font-display text-xl text-blueGray-900 font-semibold">Explore</h4>
                 <ul className="mt-4 xl:mt-10 flex flex-wrap xl:block">
                   <li className="mb-4 mr-4">
-                    <Link href="/past-awards">
+                    <Link href="/past-awards" scroll={false}>
                       <a
                         className="transition duration-500 hover:text-indigo-500 underline-hover"
                       >
@@ -160,7 +160,7 @@ function Footer() {
                     </Link>
                   </li>
                   <li className="mb-4 mr-4">
-                    <Link href="/#how-to-register">
+                    <Link href="/#how-to-register" scroll={false}>
                       <a className="transition duration-500 hover:text-indigo-500 underline-hover"
                       >
                         How To Register
@@ -168,7 +168,7 @@ function Footer() {
                     </Link>
                   </li>
                   <li className="mb-4 mr-4">
-                    <Link href="/about/#meet-the-jury" >
+                    <Link href="/about/#meet-the-jury" scroll={false}>
                       <a
                         className="transition duration-500 hover:text-indigo-500 underline-hover"
                       >

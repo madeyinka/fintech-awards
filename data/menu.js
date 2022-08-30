@@ -4,111 +4,111 @@ export const menuList = [
   {
     icon: <Overview />,
     name: 'Consumer & Corporate Banking  ',
-    url: '/category/consumer-and-corporate-banking',
+    url: '/awards-categories/#consumer-&-corporate-banking',
     color: false
   },
   {
     icon: <Market />,
     name: 'Consumer Lending',
-    url: '/category/consumer-lending',
+    url: '/awards-categories/#consumer-lending',
     color: true
   },
   {
     icon: <Market />,
     name: 'Business Lending',
-    url: '/category/business-lending',
+    url: '/awards-categories/#business-lending',
     color: true
   },
   {
     icon: <Portfolio />,
     name: 'Wealth Management',
-    url: '/category/wealth-management ',
+    url: '/awards-categories/#wealth-management ',
     color: false
   },
 
   {
     icon: <Community />,
     name: ' Personal Finance ',
-    url: '/category/personal-finance ',
+    url: '/awards-categories/#personal-finance ',
     color: false
   },
   {
     icon: <Settings />,
     name: 'Fraud Prevention & Transaction Security',
-    url: '/category/fraud-prvention-and-transaction-security',
+    url: '/awards-categories/#fraud-prvention-&-transaction-security',
     color: false
   },
   {
     icon: <Report />,
     name: 'Payments',
-    url: '/category/payments',
+    url: '/awards-categories/#payments',
     color: false
   },
   {
     icon: <Report />,
     name: 'Consumer Payments',
-    url: '/category/consumer-payments',
+    url: '/awards-categories/#consumer-payments',
     color: false
   },
   {
     icon: <Settings />,
     name: 'Investments ',
-    url: '/category/investments',
+    url: '/awards-categories/#investments',
     color: false
   },
   {
     icon: <Report />,
     name: 'Consumer Banking',
-    url: '/category/consumer-banking',
+    url: '/awards-categories/#consumer-banking',
     color: false
   },
   {
     icon: <Settings />,
     name: 'Financial Research and Data ',
-    url: '/category/financial-research-and-data',
+    url: '/awards-categories/#financial-research-and-data',
     color: false
   },
   {
     icon: <Settings />,
     name: 'Banking Infrastructure ',
-    url: '/category/banking-infrastructure',
+    url: '/awards-categories/#banking-infrastructure',
     color: false
   },
   {
     icon: <Report />,
     name: 'Identity and Privacy',
-    url: '/category/identity-and-privacy',
+    url: '/awards-categories/#identity-and-privacy',
     color: false,
 
   },
   {
     icon: <Settings />,
     name: 'Crowdfunding',
-    url: '/category/crowdfunding',
+    url: '/awards-categories/#crowdfunding',
     color: false
   },
   {
     icon: <Report />,
     name: 'InsurTech',
-    url: '/category/insurtech',
+    url: '/awards-categories/#insurtech',
     color: false
   },
   {
     icon: <Report />,
     name: 'RegTech',
-    url: '/category/regtech',
+    url: '/awards-categories/#regtech',
     color: false
   },
   {
     icon: <Report />,
     name: 'Cryptocurrency ',
-    url: '/category/cryptocurrency ',
+    url: '/awards-categories/#cryptocurrency ',
     color: false
   },
   {
     icon: <Report />,
     name: 'Industry Leadership',
-    url: '/category/industry-leadership',
+    url: '/awards-categories/#industry-leadership',
     color: false
   }
 ]
@@ -141,111 +141,111 @@ export const menu = [
       {
         icon: <Overview />,
         name: 'Consumer & Corporate Banking  ',
-        url: '/category/consumer-and-corporate-banking',
+        url: '/awards-categories/#consumer-&-corporate-banking',
         color: false
       },
       {
         icon: <Market />,
         name: 'Consumer Lending',
-        url: '/category/consumer-lending',
+        url: '/awards-categories/#consumer-lending',
         color: true
       },
       {
         icon: <Market />,
         name: 'Business Lending',
-        url: '/category/business-lending',
+        url: '/awards-categories/#business-lending',
         color: true
       },
       {
         icon: <Portfolio />,
         name: 'Wealth Management',
-        url: '/category/wealth-management ',
+        url: '/awards-categories/#wealth-management ',
         color: false
       },
 
       {
         icon: <Community />,
         name: ' Personal Finance ',
-        url: '/category/personal-finance ',
+        url: '/awards-categories/#personal-finance ',
         color: false
       },
       {
         icon: <Settings />,
         name: 'Fraud Prevention & Transaction Security',
-        url: '/category/fraud-prvention-and-transaction-security',
+        url: '/awards-categories/#fraud-prvention-&-transaction-security',
         color: false
       },
       {
         icon: <Report />,
         name: 'Payments',
-        url: '/category/payments',
+        url: '/awards-categories/#payments',
         color: false
       },
       {
         icon: <Report />,
         name: 'Consumer Payments',
-        url: '/category/consumer-payments',
+        url: '/awards-categories/#consumer-payments',
         color: false
       },
       {
         icon: <Settings />,
         name: 'Investments ',
-        url: '/category/investments',
+        url: '/awards-categories/#investments',
         color: false
       },
       {
         icon: <Report />,
         name: 'Consumer Banking',
-        url: '/category/consumer-banking',
+        url: '/awards-categories/#consumer-banking',
         color: false
       },
       {
         icon: <Settings />,
         name: 'Financial Research and Data ',
-        url: '/category/financial-research-and-data',
+        url: '/awards-categories/#financial-research-and-data',
         color: false
       },
       {
         icon: <Settings />,
         name: 'Banking Infrastructure ',
-        url: '/category/banking-infrastructure',
+        url: '/awards-categories/#banking-infrastructure',
         color: false
       },
       {
         icon: <Report />,
         name: 'Identity and Privacy',
-        url: '/category/identity-and-privacy',
+        url: '/awards-categories/#identity-and-privacy',
         color: false,
 
       },
       {
         icon: <Settings />,
         name: 'Crowdfunding',
-        url: '/category/crowdfunding',
+        url: '/awards-categories/#crowdfunding',
         color: false
       },
       {
         icon: <Report />,
         name: 'InsurTech',
-        url: '/category/insurtech',
+        url: '/awards-categories/#insurtech',
         color: false
       },
       {
         icon: <Report />,
         name: 'RegTech',
-        url: '/category/regtech',
+        url: '/awards-categories/#regtech',
         color: false
       },
       {
         icon: <Report />,
         name: 'Cryptocurrency ',
-        url: '/category/cryptocurrency ',
+        url: '/awards-categories/#cryptocurrency ',
         color: false
       },
       {
         icon: <Report />,
         name: 'Industry Leadership',
-        url: '/category/industry-leadership',
+        url: '/awards-categories/#industry-leadership',
         color: false
       }
     ]

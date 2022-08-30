@@ -6,7 +6,7 @@ const NavLinks = ({ url, name }) => {
     return (
         <>
             <li>
-                <Link href={url} passHref>
+                <Link href={url} scroll={false} passHref>
                     <a
                         className="dark:hover:bg-jacarta-600 hover:text-accent focus:text-accent hover:bg-jacarta-50 flex items-center rounded-xl px-5 py-2 transition-colors"
                     >

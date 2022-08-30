@@ -10,6 +10,7 @@ const AccordionLayout = ({ options }) => {
       {options.map(({ title, content }, index) => (
         <div
           key={title}
+          id={`${title.toLowerCase().replaceAll(" ", "-")}`}
           className="overflow-hidden flex w-full flex-col my-3 border-[1.5px] rounded-md dark:bg-jacarta-700 dark:border-jacarta-700 border-jacarta-100  bg-white transition-shadow hover:shadow-lg"
 
         >
