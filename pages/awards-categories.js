@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 import Image from 'next/image'
 import Link from 'next/link'
 import AwardsCategory from '@/components/sections/AwardsCategory';
-
+import AskQuestion from '@/components/sections/AskQuestion';
 const Category = () => {
     return (
         <>
@@ -17,12 +17,12 @@ const Category = () => {
                     </div>
                 </section>
 
-                <section className="dark:bg-jacarta-800 relative py-24">
+                <section className="dark:bg-jacarta-800 relative pt-24">
                     <picture className="pointer-events-none absolute inset-0 -z-10 dark:hidden">
                         <Image src="/assets/images/gradient_light.jpg" layout='fill' alt="gradient" className="h-full w-full" />
                     </picture>
                     <AwardsCategory />
-
+                    <AskQuestion />
                 </section>
 
             </main>
