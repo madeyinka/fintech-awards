@@ -55,12 +55,15 @@
 @tailwind utilities;
 
 @layer base {
-  p,
   ul,
   li,
   a,
   button,
   span {
+    font-family: 'DM Sans', 'sans-serif';
+  }
+  p {
+    @apply text-[1.125rem] lg:text-[1.25rem] leading-[2rem];
     font-family: 'DM Sans', 'sans-serif';
   }
 
