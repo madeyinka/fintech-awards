@@ -13,7 +13,7 @@ const NavLinks = ({ url, name }) => {
                         <span className="mr-3 rounded-xl  p-1.5">
                             < RightArrow2 />
                         </span>
-                        <span className="font-DmSans font-medium text-jacarta-700 text-sm dark:text-white">{name}</span>
+                        <span className="font-DmSans font-medium text-jacarta-900 text-sm dark:text-white">{name}</span>
                     </a>
                 </Link>
             </li>
