@@ -56,9 +56,7 @@ export const Header = ({ homePage }) => {
       <header className='bg-white z-10 lg:z-50 backdrop-blur dark:bg-jacarta-800/90 dark:backdrop-blur
           fixed top-0 w-full  transition-colors'>
         <div className="flex items-center pl-3 pr-6 py-1 xl:px-24">
-          {/* Logo 
-          
-          text-primary-900 font-black
+          {/*previous header className=""         
 
           <header className={`${!top && 'bg-white/70 backdrop-blur dark:bg-jacarta-800/70 dark:backdrop-blur'
         }  fixed top-0 z-50 w-full  transition-colors`}>
