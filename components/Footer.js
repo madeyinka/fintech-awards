@@ -193,7 +193,7 @@ function Footer() {
                     </Link>
                   </li>
                   <li className="mb-4 mr-4">
-                    <Link href="/our-sponsor">
+                    <Link href="/sponsorship">
                       <a
                         className="transition duration-500 hover:text-indigo-500 underline-hover"
 
