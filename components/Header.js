@@ -11,7 +11,7 @@ import { Logo, LogoSwitch } from '@/components/Logo'
 function Menu({ children, open }) {
   return (
     <div
-      className={classNames('fixed top-0 z-20 backdrop-blur h-full max-h-screen overflow-y-auto dark:bg-jacarta-800 bg-white transition-all duration-700 ', { 'w-full': open }, { 'w-0': !open })}
+      className={classNames('fixed top-0 z-50 backdrop-blur h-full max-h-screen overflow-y-auto dark:bg-jacarta-800 bg-white transition-all duration-700 ', { 'w-full': open }, { 'w-0': !open })}
     >
       {children}
     </div>
@@ -53,13 +53,18 @@ export const Header = ({ homePage }) => {
 
   return (
     <>
-      <header className='bg-white z-10 lg:z-50 backdrop-blur dark:bg-jacarta-800/90 dark:backdrop-blur
-          fixed top-0 w-full  transition-colors'>
+      <header className={`${!top && 'bg-white/70 backdrop-blur dark:bg-jacarta-800/70 dark:backdrop-blur'
+        } ${top && 'bg-white/70 backdrop-blur dark:bg-jacarta-800/70 dark:backdrop-blur'
+        }   fixed top-0 z-40 w-full  transition-colors`}>
         <div className="flex items-center pl-3 pr-6 py-1 xl:px-24">
           {/*previous header className=""         
 
           <header className={`${!top && 'bg-white/70 backdrop-blur dark:bg-jacarta-800/70 dark:backdrop-blur'
         }  fixed top-0 z-50 w-full  transition-colors`}>
+
+
+          <header className='bg-white z-10 lg:z-50 backdrop-blur dark:bg-jacarta-800/90 dark:backdrop-blur
+          fixed top-0 w-full  transition-colors'>
           
           */}
           <span className="shrink-0">
@@ -89,13 +94,13 @@ export const Header = ({ homePage }) => {
           {/* Menu / Actions */}
           <div className="dark:bg-jacarta-800 invisible fixed inset-0 z-10 ml-auto items-cente bg-white opacity-0 lg:visible lg:relative lg:inset-auto lg:flex lg:bg-transparent lg:opacity-100 dark:lg:bg-transparent">
 
-            {/* Primary Nav */}
+            {/* jacarta Nav */}
             <nav className="navbar w-full">
               <ul className="flex flex-col lg:flex-row">
                 <li className="group relative">
                   <Link href="/">
                     <a
-                      className={classNames({ ' hover:text-primary-700 text-primary-900 font-black': top && homePage }, { 'text-jacarta-800': top && !homePage }, "hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { ' text-primary-900 font-black ': !top })}
+                      className={classNames({ ' hover:text-jacarta-700 text-jacarta-900 font-black': top && homePage }, { 'text-jacarta-800 font-black': top && !homePage }, "hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { ' text-jacarta-900 font-black ': !top })}
                       aria-expanded="false"
                     >Home</a>
                   </Link>
@@ -103,7 +108,7 @@ export const Header = ({ homePage }) => {
                 <li className="group relative">
                   <Link href="/about">
                     <a
-                      className={classNames({ ' hover:text-primary-700 text-primary-900 font-black': top && homePage }, { 'text-jacarta-800': top && !homePage }, "hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { ' text-primary-900 font-black ': !top })}
+                      className={classNames({ ' hover:text-jacarta-700 text-jacarta-900 font-black': top && homePage }, { 'text-jacarta-800 font-black': top && !homePage }, "hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { ' text-jacarta-900 font-black ': !top })}
                       aria-expanded="false"
                     >About</a>
                   </Link>
@@ -111,7 +116,7 @@ export const Header = ({ homePage }) => {
                 </li>
                 <li className="group relative">
                   <a
-                    className={classNames({ ' hover:text-primary-700 text-primary-900 font-black': top && homePage }, { 'text-jacarta-800': top && !homePage }, "hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { ' text-primary-900 font-black ': !top })}
+                    className={classNames({ ' hover:text-jacarta-700 text-jacarta-900 font-black': top && homePage }, { 'text-jacarta-800 font-black': top && !homePage }, "hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { ' text-jacarta-900 font-black ': !top })}
                     aria-expanded="false"
                   >
                     Awards Categories
@@ -141,7 +146,7 @@ export const Header = ({ homePage }) => {
                 </li>
                 <li className="group relative">
                   <a
-                    className={classNames({ ' hover:text-primary-700 text-primary-900 font-black': top && homePage }, { 'text-jacarta-800': top && !homePage }, "hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { ' text-primary-900 font-black ': !top })}
+                    className={classNames({ ' hover:text-jacarta-700 text-jacarta-900 font-black': top && homePage }, { 'text-jacarta-800 font-black': top && !homePage }, "hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { ' text-jacarta-900 font-black ': !top })}
                     aria-expanded="false"
                   >
                     Resources
@@ -197,7 +202,7 @@ export const Header = ({ homePage }) => {
                 <li className="group">
                   <Link href="/contact">
                     <a
-                      className={classNames({ ' hover:text-primary-700 text-primary-900 font-black': top && homePage }, { 'text-jacarta-800': top && !homePage }, "hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { ' text-primary-900 font-black ': !top })}
+                      className={classNames({ ' hover:text-jacarta-700 text-jacarta-900 font-black': top && homePage }, { 'text-jacarta-800 font-black': top && !homePage }, "hover:text-accent focus:text-accent dark:hover:text-accent dark:focus:text-accent flex items-center justify-between py-3.5 text-base dark:text-white lg:px-5", { ' text-jacarta-900 font-black ': !top })}
                     >
                       Contact
                     </a>

@@ -12,12 +12,12 @@ function HeroHome() {
 
   useEffect(() => setMounted(true), []);
   return (
-    <div className="relative pt-16 ">
-      <section className="relative w-full h-full top-0 left-0 object-cover object-[83%]  bg-cover bg-center bg-[url('/assets/gallery/nigeria-fintech-awards-hero1.jpg')] dark:bg-[url('/assets/gallery/nigeria-fintech-awards-hero1.jpg')]  ">
+    <div className="relative ">
+      <section className="relative w-full h-screen top-0 left-0 object-cover object-[83%]  bg-cover bg-center bg-[url('/assets/gallery/nigeria-fintech-awards-hero1.jpg')] dark:bg-[url('/assets/gallery/nigeria-fintech-awards-hero1.jpg')]  ">
         <div className="home__container containerbox gridbox">
 
           <div className="flex items-center mx-auto justify-center max-w-[61.25rem]">
-            <div className="pb-24 pt-20 lg:pt-52  text-center ">
+            <div className="pb-24 pt-48 lg:pt-72  text-center ">
               <h1 className={classNames("font-display mb-6 text-[3rem] leading-[3.75rem] tracking-wider lg:text-6xl xl:text-7xl animated", { 'text-white': mounted && (theme === 'dark' || resolvedTheme === 'dark') }, { 'color-font ': mounted && (theme === 'light' || resolvedTheme === 'light') })}>
                 The Nigerian Fintech Awards
               </h1>
