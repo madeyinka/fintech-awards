@@ -66,10 +66,10 @@ const PackageTab = () => {
             <Container className=" pt-3">
                 <div >
                     <div id="categories" className="mb-4 text-jacarta-700 dark:text-jacarta-100">
-                        <h2 className="font-display  mb-3 text-center text-3xl dark:text-white">
+                        <h2 className="font-display  mb-3 text-center tracking-wider md:leading-normal lg:text-[46px] text-3xl dark:text-white">
                             Awards Categories
                         </h2>
-                        <p className="lg:text-lg max-w-3xl text-center  mx-auto"> NIGERIAN FINTECH AWARDS 2022 CATEGORIES </p>
+                        <p className="lg:text-lg max-w-3xl text-center mx-auto"> NIGERIAN FINTECH AWARDS 2022 CATEGORIES </p>
 
                     </div>
                     <div className=" 2xl:container 2xl:mx-auto overflow-hidden">

@@ -5,7 +5,7 @@ import { Button } from '../form';
 
 const AskQuestion = () => {
     return (
-        <div className="bg-light-base px-14 py-16 lg:py-20 ">
+        <div className="bg-light-base dark:bg-jacarta-800 px-14 py-16 lg:py-20 ">
             <div>
                 <div className="mt-2  avatar-group text-center">
                     <div className="relative z-20 inline-flex items-center justify-center w-12 h-12 lg:w-14 lg:h-14 -ml-4  transition-all duration-200 border-2 border-white border-solid rounded-full ease-soft-in-out text-size-xs hover:z-40">
@@ -38,7 +38,7 @@ const AskQuestion = () => {
                     </div>
                 </div>
                 <div className="text-center">
-                    <h1 className="font-Inter text-xl md:text-xl font-semibold text-jacarta-800  py-2">Still have questions?</h1>
+                    <h1 className="font-Inter text-xl md:text-xl font-semibold text-jacarta-800 dark:text-white  py-2">Still have questions?</h1>
                     <p className="pb-2 text-jacarta-700 dark:text-jacarta-300 text-base lg:text-lg">Can’t find the answers you are looking for?</p>
                     <Link href="/contact">
                         <a>
