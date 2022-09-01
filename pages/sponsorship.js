@@ -3,6 +3,7 @@ import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Image from 'next/image'
 import { Container } from '@/components/ColorSwitch'
+import AskQuestion from '@/components/sections/AskQuestion'
 
 const Sponsorship = () => {
     return (
@@ -44,7 +45,7 @@ const Sponsorship = () => {
                                     <p>
                                         Sponsors get access to an engaged audience of senior thought-leaders through an assortment of different options. Whether you’re looking to align your brand with innovations in the Nigerian Fintech industry or benefit from inclusion in our marketing campaign, the Nigerian Fintech Awards have something that’s right for you.
                                     </p>
-                                    <h2 className='tracking-wider md:leading-normal lg:text-[36px] text-xl'>Our sponsorship packages come with branding</h2>
+                                    <h2 className='tracking-wider md:leading-normal lg:text-[36px] text-xl'>Our Sponsorship Packages Come With Branding</h2>
                                     <p>
                                         Our sponsorship packages include branding, communications, and a few Fintech Africa publications offer. You will also feature on all pre and post-articles: the winners&apos; supplement, email, and social media messages about the awards.
                                     </p>
@@ -52,7 +53,7 @@ const Sponsorship = () => {
                                 </div>
                             </div>
                         </section>
-
+                        <AskQuestion />
                     </Container>
                 </section>
 

@@ -1,4 +1,5 @@
 import Footer from '@/components/Footer'
+import { Button } from '@/components/form'
 import Header from '@/components/Header'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -12,7 +13,7 @@ const contact = () => {
                 {/* Page Title */}
                 <section className="after:bg-jacarta-900/60 w-full h-full relative bg-cover bg-center bg-no-repeat py-32 after:absolute after:inset-0" style={{ backgroundImage: 'url("/assets/images/contact_banner.jpg")', }}>
                     <div className="container relative z-10">
-                        <h1 className="font-display text-center text-4xl font-medium text-white">Get in touch</h1>
+                        <h1 className="font-display text-center tracking-wider md:leading-normal lg:text-[46px] text-3xl font-medium text-white">Get in touch</h1>
                     </div>
                 </section>
                 {/* Contact */}
@@ -47,9 +48,13 @@ const contact = () => {
                                         <input type="checkbox" id="contact-form-consent-input" name="agree-to-terms" className="checked:bg-accent dark:bg-jacarta-600 text-accent border-jacarta-200 focus:ring-accent/20 dark:border-jacarta-500 h-5 w-5 self-start rounded focus:ring-offset-0" />
                                         <label htmlFor="contact-form-consent-input" className="dark:text-jacarta-200 text-sm">I agree to the <a href="tos.html" className="text-accent">Terms of Service</a></label>
                                     </div>
-                                    <button type="submit" className="bg-accent shadow-accent-volume hover:bg-jacarta-650 rounded-full py-3 px-8 text-center font-semibold text-white transition-all" id="contact-form-submit">
+                                    <Button
+                                        className="my-2 capitalize"
+                                        color="secondary"
+                                    >
                                         Submit
-                                    </button>
+                                    </Button>
+
                                     <div id="contact-form-notice" className="relative mt-4 hidden rounded-lg border border-transparent p-4" />
                                 </form>
                             </div>

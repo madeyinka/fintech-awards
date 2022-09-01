@@ -6,7 +6,7 @@ import { Container } from '@/components/ColorSwitch'
 function Footer() {
   return (
     <>
-      <Container className="pb-20 lg:pb-28 pt-32 lg:pt-44">
+      <Container className="pb-8 lg:pb-12 pt-32 lg:pt-44">
         <footer className="  text-jacarta-600 dark:text-white relative ">
           <div className="container mx-auto relative px-4 z-10">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-7 gap-8">
@@ -248,13 +248,13 @@ function Footer() {
               </div>
             </div>
             <div className="lg:text-center mt-8 lg:mt-10">
-              <p className="ta-700">
+              <span className="">
                 © <span id=""> Roatek Technology - All Rights Reserved by
                   <a href="https://roatek.com.ng/" className="text-indigo-500 underline-hover ml-3" rel="noopener">
                     Roatek
                   </a>
                 </span>
-              </p>
+              </span>
             </div>
           </div>
           <a

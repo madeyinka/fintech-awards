@@ -43,7 +43,8 @@ const AskQuestion = () => {
                     <Link href="/contact">
                         <a>
                             <Button
-                                className="my-2 capitalize "
+                                className="my-2 capitalize"
+
                             >
                                 Contact Us
                             </Button>

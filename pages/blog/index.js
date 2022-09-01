@@ -6,6 +6,7 @@ import Footer from '@/components/Footer'
 import BlogCard from '@/components/BlogCard'
 import blogData from '@/data/blog'
 import { Container } from '@/components/ColorSwitch'
+import { Button } from '@/components/form'
 
 const Blog = () => {
     return (
@@ -13,6 +14,11 @@ const Blog = () => {
             <Header />
             <main >
                 <Container className="pt-[5.5rem] lg:pt-24">
+                    <section className="after:bg-jacarta-900/60 w-full h-full relative bg-cover bg-center bg-no-repeat py-32 after:absolute after:inset-0" style={{ backgroundImage: 'url("/assets/images/contact_banner.jpg")', }}>
+                        <div className="container relative z-10">
+                            <h1 className="font-display text-center tracking-wider md:leading-normal lg:text-[46px] text-3xl font-medium text-white">Our Blog</h1>
+                        </div>
+                    </section>
                     <section className="relative py-16 md:py-24">
                         <picture className="pointer-events-none absolute inset-0 -z-10 dark:hidden">
                             <Image layout="fill" src="/assets/images/gradient_light.jpg" alt="gradient" className="h-full w-full" />
@@ -34,7 +40,7 @@ const Blog = () => {
                             </div>
                             {/* Load More */}
                             <div className="mt-10 text-center">
-                                <a href="blog" className="bg-accent shadow-accent-volume hover:bg-jacarta-650 inline-block rounded-full py-3 px-8 text-center font-semibold text-white transition-all">Load More</a>
+                                <Button color="secondary" >Load More</Button>
                             </div>
                         </div>
                     </section>
