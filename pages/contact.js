@@ -8,7 +8,7 @@ import React from 'react'
 const contact = () => {
     return (
         <>
-            <Header />
+            <Header title="Contact" desc="Contact The Nigeria FinTech Awards" />
             <main className="pt-[5.5rem] mt-5 lg:pt-24">
                 {/* Page Title */}
                 <section className="after:bg-jacarta-900/60 w-full h-full relative bg-cover bg-center bg-no-repeat py-32 after:absolute after:inset-0" style={{ backgroundImage: 'url("/assets/images/contact_banner.jpg")', }}>

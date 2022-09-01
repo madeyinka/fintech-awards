@@ -8,7 +8,7 @@ import AskQuestion from '@/components/sections/AskQuestion'
 const Sponsorship = () => {
     return (
         <>
-            <Header />
+            <Header title="Sponsorship" desc="Sponsorship The Nigeria FinTech Awards" />
 
             <main className="pt-[5.5rem] lg:pt-24">
                 {/* Page Title */}

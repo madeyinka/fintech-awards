@@ -10,6 +10,7 @@ import MobileNavBar from '@/components/MobileNavbar'
 import { Logo, LogoSwitch } from '@/components/Logo'
 import { Button } from './form';
 import { RightArrow2 } from '@/public/assets/svgsIcons';
+import Head from "next/head";
 
 function Menu({ children, open }) {
   return (
@@ -25,7 +26,7 @@ function MenuContainer({ children }) {
   return <div className='relative top-1/4 w-full mt-8 overflow-y-auto'>{children}</div>;
 }
 
-export const Header = ({ homePage }) => {
+export const Header = ({ homePage, title, desc }) => {
   const [top, setTop] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [open, setOpen] = useState(false);
@@ -60,6 +61,10 @@ export const Header = ({ homePage }) => {
       <header className={`${!top && 'bg-white/70 backdrop-blur dark:bg-jacarta-800/70 dark:backdrop-blur'
         } ${top && 'bg-white/70 backdrop-blur dark:bg-jacarta-800/70 dark:backdrop-blur'
         }   fixed top-0 z-40 w-full  transition-colors`}>
+        <Head>
+          <title>{title} | The Nigeria Fintech Awards </title>
+          <meta name="description" content={desc} />
+        </Head>
         <div className="flex items-center pl-3 pr-6 py-1 xl:px-24">
           {/*previous header className=""         
 

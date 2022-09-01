@@ -10,7 +10,7 @@ import Link from 'next/link';
 const About = () => {
     return (
         <>
-            <Header />
+            <Header title="About" desc="About-Page The Nigeria FinTech Awards" />
             <Container className="pt-24 text-jacarta-700 dark:text-white">
                 <section className="relative ">
                     <div className="container">

@@ -15,7 +15,7 @@ import {
 const BlogDetails = () => {
     return (
         <>
-            <Header />
+            <Header title="Blog-Details" desc="Blog-Details The Nigeria FinTech Awards" />
             <Container className="mt-2 pt-32  lg:pt-48 ">
                 <section className="hero-section pb-20 lg:pb-32 relative text-jacarta-800 dark:text-white">
 

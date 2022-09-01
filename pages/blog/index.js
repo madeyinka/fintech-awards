@@ -11,7 +11,7 @@ import { Button } from '@/components/form'
 const Blog = () => {
     return (
         <>
-            <Header />
+            <Header title="Blog" desc="Blog The Nigeria FinTech Awards" />
             <main >
                 <Container className="pt-[5.5rem] lg:pt-24">
                     <section className="after:bg-jacarta-900/60 w-full h-full relative bg-cover bg-center bg-no-repeat py-32 after:absolute after:inset-0" style={{ backgroundImage: 'url("/assets/images/contact_banner.jpg")', }}>

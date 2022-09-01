@@ -18,7 +18,8 @@ export default function Home() {
   return (
     <>
 
-      <Header homePage />
+      <Header homePage
+        title="Home-Page" desc="Home-Page The Nigeria FinTech Awards" />
       <HomeHero />
       <AboutSection />
       <HowtoRegSection />
