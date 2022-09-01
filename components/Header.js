@@ -4,9 +4,11 @@ import ThemeToggle from './ThemeToggle';
 import { menu, menuList } from '@/data/menu'
 import NavLink from '@/components/NavLink'
 import classNames from 'classnames';
+import Category from '../pages/awards-categories';
 import NavBar from '@/components/Navbar'
 
 import { Logo, LogoSwitch } from '@/components/Logo'
+import { Button } from './form';
 
 function Menu({ children, open }) {
   return (
@@ -669,14 +671,14 @@ export const Header = ({ homePage }) => {
             </nav>
           </MenuContainer>
           <div className="my-10 w-full lg:hidden">
-            <a
-              href="#"
-              className="js-wallet bg-accent shadow-accent-volume hover:bg-jacarta-650 block w-full rounded-full py-3 px-8 text-center font-semibold text-white transition-all"
-              data-bs-toggle="modal"
-              data-bs-target="#walletModal"
-            >
-              Connect Wallet
-            </a>
+
+            <div className="text-center">
+              <Link href="/#how-to-register">
+                <a>
+                  <Button >HOW TO ENTER</Button>
+                </a>
+              </Link>
+            </div>
             <hr className="dark:bg-jacarta-600 bg-jacarta-100 my-5 h-px border-0" />
             {/* Socials */}
             <div className="flex items-center justify-center space-x-5">
