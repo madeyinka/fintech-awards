@@ -37,7 +37,7 @@ const AccordionLayout = ({ options }) => {
             </div>
           </div>
           {index === isActive && (
-            <div className="w-full transition-all duration-700 p-4 px-10 mb-6">
+            <div className="w-full transition-all duration-700 py-4 px-3 lg:px-6 mb-6">
               {content}
             </div>
           )}
