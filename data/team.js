@@ -1,7 +1,7 @@
 const team = [
     {
-        name: 'Damilola Salawu  ',
-        imagePath: '/assets/team/SALAWU.png',
+        name: 'Ikem Okuhu',
+        imagePath: '/assets/team/chairman.jpg',
         title: 'Chairman'
     },
     {
@@ -16,12 +16,12 @@ const team = [
         imagePath: '/assets/team/Sunday-Afolayan.png',
         title: 'Member'
     },
-    {
+    // {
 
-        name: 'Chidinma Lawanson',
-        imagePath: '/assets/team/Chidinma-Lawanson.jpg',
-        title: 'Member'
-    },
+    //     name: 'Chidinma Lawanson',
+    //     imagePath: '/assets/team/Chidinma-Lawanson.jpg',
+    //     title: 'Member'
+    // },
 
     {
 
@@ -31,16 +31,16 @@ const team = [
     },
     {
 
-        name: 'Adewale Yusuf',
-        imagePath: '/assets/team/Adewale-Yusuf.png',
+        name: 'Sola Fanawopo',
+        imagePath: '/assets/team/secretary.jpg',
         title: 'Member'
     },
-    {
+    // {
 
-        name: 'Bayo Adewolu',
-        imagePath: '/assets/team/Bayo-Adewolu.png',
-        title: 'Member'
-    }
+    //     name: 'Bayo Adewolu',
+    //     imagePath: '/assets/team/Bayo-Adewolu.png',
+    //     title: 'Member'
+    // }
 
 ];
 
