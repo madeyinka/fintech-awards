@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { LogoSwitch } from './Logo';
 import { Container } from '@/components/ColorSwitch'
+import { Link as ScrollLink } from 'react-scroll';
 
 function Footer() {
   return (
@@ -18,7 +19,7 @@ function Footer() {
                   <Link href="#!">
 
                     <a
-                      className="group flex items-center justify-center w-10 h-10  rounded-lg border transition duration-500 hover:bg-indigo-500 mr-2"
+                      className="group flex items-center justify-center w-10 h-10  rounded-lg border transition duration-500 hover:bg-indigo-500 font-medium mr-2"
 
                     >
                       <svg
@@ -37,7 +38,7 @@ function Footer() {
                   </Link>
                   <Link href="https://twitter.com/nigerianfintc1a">
                     <a
-                      className="group flex items-center justify-center w-10 h-10 rounded-lg border transition duration-500 hover:bg-indigo-500 mr-2"
+                      className="group flex items-center justify-center w-10 h-10 rounded-lg border transition duration-500 hover:bg-indigo-500 font-medium mr-2"
 
                     >
                       <svg
@@ -57,7 +58,7 @@ function Footer() {
                   </Link>
                   <Link href="#!">
                     <a
-                      className="group flex items-center justify-center w-10 h-10 rounded-lg border transition duration-500 hover:bg-indigo-500 mr-2"
+                      className="group flex items-center justify-center w-10 h-10 rounded-lg border transition duration-500 hover:bg-indigo-500 font-medium mr-2"
 
                     >
                       <svg
@@ -77,7 +78,7 @@ function Footer() {
                   </Link>
                   <Link href="#!">
                     <a
-                      className="group flex items-center justify-center w-10 h-10 rounded-lg border transition duration-500 hover:bg-indigo-500 mr-2"
+                      className="group flex items-center justify-center w-10 h-10 rounded-lg border transition duration-500 hover:bg-indigo-500 font-medium mr-2"
 
                     >
                       <svg
@@ -101,7 +102,7 @@ function Footer() {
                 <ul className="mt-4 xl:mt-10 flex flex-wrap xl:block">
                   <li className="mb-4 mr-4">
                     <Link href="/">
-                      <a className="transition duration-500 hover:text-indigo-500 underline-hover"
+                      <a className="transition duration-500 hover:text-indigo-500 font-medium underline-hover"
                       >
                         Home
                       </a>
@@ -109,7 +110,7 @@ function Footer() {
                   </li>
                   <li className="mb-4 mr-4">
                     <Link href="/about">
-                      <a className="transition duration-500 hover:text-indigo-500 underline-hover"
+                      <a className="transition duration-500 hover:text-indigo-500 font-medium underline-hover"
                       >
                         About
                       </a>
@@ -119,7 +120,7 @@ function Footer() {
 
                   <li className="mb-4 mr-4">
                     <Link href="/blog">
-                      <a className="transition duration-500 hover:text-indigo-500 underline-hover"
+                      <a className="transition duration-500 hover:text-indigo-500 font-medium underline-hover"
                       >
                         Blog
                       </a>
@@ -127,7 +128,7 @@ function Footer() {
                   </li>
                   <li className="mb-4 mr-4">
                     <Link href="/contact">
-                      <a className="transition duration-500 hover:text-indigo-500 underline-hover"
+                      <a className="transition duration-500 hover:text-indigo-500 font-medium underline-hover"
                       >
                         Contact
                       </a>
@@ -141,7 +142,7 @@ function Footer() {
                   <li className="mb-4 mr-4">
                     <Link href="/past-awards" scroll={false}>
                       <a
-                        className="transition duration-500 hover:text-indigo-500 underline-hover"
+                        className="transition duration-500 hover:text-indigo-500 font-medium underline-hover"
                       >
                         Past Awards
                       </a>
@@ -151,7 +152,7 @@ function Footer() {
                   <li className="mb-4 mr-4">
                     <Link href="/#categories">
                       <a
-                        className="transition duration-500 hover:text-indigo-500 underline-hover"
+                        className="transition duration-500 hover:text-indigo-500 font-medium underline-hover"
 
                       >
                         Categories
@@ -160,20 +161,21 @@ function Footer() {
                     </Link>
                   </li>
                   <li className="mb-4 mr-4">
-                    <Link href="/#how-to-register" scroll={false}>
-                      <a className="transition duration-500 hover:text-indigo-500 underline-hover"
-                      >
-                        How To Register
-                      </a>
+                    <Link href="/#how-to-register" replace passHref>
+                      <ScrollLink activeClass="active" to="how-to-register" spy={true} offset={-30} smooth={true} duration={500}>
+                        <a className="transition duration-500 cursor-pointer hover:text-indigo-500 font-medium underline-hover"                 >
+                          How To Register
+                        </a>
+                      </ScrollLink>
                     </Link>
                   </li>
                   <li className="mb-4 mr-4">
-                    <Link href="/about/#meet-the-jury" scroll={false}>
-                      <a
-                        className="transition duration-500 hover:text-indigo-500 underline-hover"
-                      >
-                        Meet The Jury
-                      </a>
+                    <Link href="/about/#meet-the-jury" replace passHref>
+                      <ScrollLink activeClass="active" to="meet-the-jury" spy={true} offset={-30} smooth={true} duration={500}>
+                        <a className="transition duration-500 cursor-pointer hover:text-indigo-500 font-medium underline-hover"                 >
+                          Meet The Jury
+                        </a>
+                      </ScrollLink>
                     </Link>
                   </li>
 
@@ -185,7 +187,7 @@ function Footer() {
                   <li className="mb-4 mr-4">
                     <Link href="/awards-categories">
                       <a
-                        className="transition duration-500 hover:text-indigo-500 underline-hover"
+                        className="transition duration-500 hover:text-indigo-500 whitespace-nowrap font-medium underline-hover"
                       >
                         Awards Categories
                       </a>
@@ -195,7 +197,7 @@ function Footer() {
                   <li className="mb-4 mr-4">
                     <Link href="/sponsorship">
                       <a
-                        className="transition duration-500 hover:text-indigo-500 underline-hover"
+                        className="transition duration-500 hover:text-indigo-500 font-medium underline-hover"
 
                       >
                         Our Sponsors
@@ -206,7 +208,7 @@ function Footer() {
                   <li className="mb-4 mr-4">
                     <Link href="/blog">
                       <a
-                        className="transition duration-500 hover:text-indigo-500 underline-hover"
+                        className="transition duration-500 hover:text-indigo-500 font-medium underline-hover"
                       >
                         Recent Activity
                       </a>
@@ -214,13 +216,14 @@ function Footer() {
                     </Link>
                   </li>
                   <li className="mb-4 mr-4">
-                    <Link href="/#packages">
-                      <a
-                        className="transition duration-500 hover:text-indigo-500 underline-hover"
-                      >
-                        Packages
-                      </a>
-
+                    <Link href="/#packages" passHref>
+                      <ScrollLink activeClass="active" to="packages" spy={true} offset={-30} smooth={true} duration={500}>
+                        <a
+                          className="transition duration-500 hover:text-indigo-500 font-medium underline-hover"
+                        >
+                          Packages
+                        </a>
+                      </ScrollLink>
                     </Link>
                   </li>
                 </ul>
@@ -229,7 +232,7 @@ function Footer() {
                 <h4 className="font-display text-xl text-blueGray-900 font-semibold">Subscribe Us</h4>
                 <form className="footer-newsletter flex items-center w-full mb-4 mt-4 xl:mt-10">
                   <input
-                    className="bg-transparent border-2 border-r-0 border-indigo-500 transition duration-500 focus:outline-none hover:bg-white rounded-l w-full h-14 p-4"
+                    className="bg-transparent border-2 border-r-0 border-indigo-500 font-medium transition duration-500 focus:outline-none hover:bg-white rounded-l w-full h-14 p-4"
                     type="text"
                     placeholder="Your e-mail address"
                   />
@@ -250,7 +253,7 @@ function Footer() {
             <div className="lg:text-center mt-8 lg:mt-10">
               <span className="">
                 © <span id=""> Roatek Technology - All Rights Reserved by
-                  <a href="https://roatek.com.ng/" className="text-indigo-500 underline-hover ml-3" rel="noopener">
+                  <a href="https://roatek.com.ng/" className="text-indigo-500 font-medium underline-hover ml-3" rel="noopener">
                     Roatek
                   </a>
                 </span>

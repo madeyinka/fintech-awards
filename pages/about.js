@@ -156,8 +156,8 @@ const About = () => {
                         </div>
                     </div>
                 </section>
-                <section className="py-5">
-                    <div id="meet-the-jury" className="container">
+                <section id="meet-the-jury" className="py-5">
+                    <div className="container">
                         <h2 className="text-jacarta-700 mb-12 text-center tracking-wider md:leading-normal lg:text-[46px] text-3xl dark:text-white">
                             Meet The Jury
                         </h2>

@@ -4,6 +4,7 @@ import Link from 'next/link';
 import classNames from 'classnames';
 import { Button } from '@/components/form'
 import { Container } from '@/components/ColorSwitch'
+import { Link as ScrollLink } from 'react-scroll';
 
 
 function HeroHome() {
@@ -23,17 +24,16 @@ function HeroHome() {
               </h1>
               <p className="text-white three-row-paragraph max-w-4xl mx-auto mb-8 lg:text-[1.375rem] text-[1.125rem] leading-8  2xl:text-xl ">Dedicated  to honouring excellence in financial technologies and services companies and products. The Awards provide public recognition for the achievements of FinTech companies and products in categories </p>
               <div className="inline-flex space-x-4">
+
                 <Link href="/awards-categories" passHref>
                   <a>
                     <Button className="">Browse Categories</Button>
                   </a>
                 </Link>
+                <ScrollLink activeClass="active" to="how-to-register" spy={true} offset={-30} smooth={true} duration={500}>
+                  <Button className="hidden lg:flex" color="secondary">How To Enter</Button>
+                </ScrollLink>
 
-                <Link href="#how-to-register" passHref>
-                  <a>
-                    <Button className="hidden lg:flex" color="secondary">How To Enter</Button>
-                  </a>
-                </Link>
 
               </div>
             </div>
