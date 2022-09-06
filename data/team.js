@@ -31,8 +31,8 @@ const team = [
     },
     {
 
-        name: 'Sola Fanawopo',
-        imagePath: '/assets/team/secretary.jpg',
+        name: 'Chima Akwaja',
+        imagePath: '/assets/team/Mr Chima.jpg',
         title: 'Member'
     },
     // {

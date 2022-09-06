@@ -11,11 +11,11 @@ import { Container } from '@/components/ColorSwitch'
 const HowtoRegister = () => {
     return (
         <>
-            <section id="how-to-register" className={classNames("relative bg-white dark:bg-jacarta-800 text-jacarta-700 dark:text-white")}>
+            <section id="how-to-enter" className={classNames("relative bg-white dark:bg-jacarta-800 text-jacarta-700 dark:text-white")}>
                 <Container className="md:py-20 py-12">
                     <div className="container">
                         <div className="grid grid-cols-1 pb-8 text-center">
-                            <h3 className="mb-1 tracking-wider md:leading-normal lg:text-[46px] text-3xl leading-normal font-semibold ">How To Register</h3>
+                            <h3 className="mb-1 tracking-wider md:leading-normal lg:text-[46px] text-3xl leading-normal font-semibold ">How To Enter</h3>
                             <p className="lg:text-lg max-w-xl mx-auto">Nigerian Fintech Awards is endorsed by Fintech1000+, Africa’s largest fintech ecosystem. </p>
                         </div>{/*end grid*/}
                         <div className="grid grid-cols-1 mt-8">

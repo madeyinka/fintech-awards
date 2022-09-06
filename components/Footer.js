@@ -161,10 +161,10 @@ function Footer() {
                     </Link>
                   </li>
                   <li className="mb-4 mr-4">
-                    <Link href="/#how-to-register" replace passHref>
-                      <ScrollLink activeClass="active" to="how-to-register" spy={true} offset={-30} smooth={true} duration={500}>
+                    <Link href="/#how-to-enter" replace passHref>
+                      <ScrollLink activeClass="active" to="how-to-enter" spy={true} offset={-30} smooth={true} duration={500}>
                         <a className="transition duration-500 cursor-pointer hover:text-indigo-500 font-medium underline-hover"                 >
-                          How To Register
+                          How To Enter
                         </a>
                       </ScrollLink>
                     </Link>

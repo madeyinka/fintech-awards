@@ -30,7 +30,7 @@ function HeroHome() {
                     <Button className="">Browse Categories</Button>
                   </a>
                 </Link>
-                <ScrollLink activeClass="active" to="how-to-register" spy={true} offset={-30} smooth={true} duration={500}>
+                <ScrollLink activeClass="active" to="how-to-enter" spy={true} offset={-30} smooth={true} duration={500}>
                   <Button className="hidden lg:flex" color="secondary">How To Enter</Button>
                 </ScrollLink>
 
