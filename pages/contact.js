@@ -108,7 +108,7 @@ const contact = () => {
                                         <div>
                                             <h6 className="font-display text-jacarta-700 block text-base dark:text-white">Email</h6>
                                             <Link href="mailto:info@nigerianfintechawards.org.ng">
-                                                <a className="text-jacarta-500 hover:text-accent dark:text-jacarta-300 font-DmSans text-sm not-italic">info@nigerianfintechawards.org.ng</a>
+                                                <a className="text-jacarta-500 hover:text-accent dark:text-jacarta-300 font-DmSans text-sm not-italic">info@nigerianfintechawards<br/>.org.ng</a>
                                             </Link>
                                         </div>
                                     </div>
